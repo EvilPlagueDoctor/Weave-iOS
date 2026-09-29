@@ -1,0 +1,27 @@
+VeilKnit input freeze / Ctrl-C follow-up
+========================================
+
+Observed symptom
+----------------
+The daemon/network actors continued running (mailbox actor completed WalkNodeObserved and
+continued batch ticks), but the desktop console/dashboard appeared frozen after the warning
+cleanup build.
+
+Cause
+-----
+The first Ctrl-C cleanup used one permanent background stdin reader so the main thread could
+poll the shared host stop flag. That background reader survived login and then competed with
+the full-screen crossterm dashboard for the same Windows console input.
+
+Fix
+---
+* Removed the permanent stdin reader.
+* Basic/login console prompts now create one one-shot stdin reader for that prompt only.
+* Once a normal prompt completes, its reader exits before the dashboard takes over input.
+* While a one-shot reader is blocked, the caller still polls the shared host stop flag every
+  100 ms, so Ctrl-C can initiate graceful lifecycle shutdown without requiring Enter.
+* The full-screen dashboard now explicitly maps Ctrl+C key events to the same shared host stop
+  flag, covering raw-terminal mode where crossterm may receive Ctrl+C instead of the OS signal
+  handler.
+
+All other warning-cleanup changes remain unchanged.

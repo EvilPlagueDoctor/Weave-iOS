@@ -1,0 +1,31 @@
+{
+  "name": "shutdown-async-timeout-guards-teardown",
+  "description": "A normally-cancellable async node hook times out after it may have handed work to another actor. Veilid teardown must not run because cancellation of the waiter alone cannot prove the underlying service is quiescent.",
+  "budget_scale": 0.02,
+  "hooks": [
+    {
+      "module": "actor-style-node-cleanup",
+      "need": "veilidnode",
+      "behaviour": "ok",
+      "ms": 1000,
+      "budget_ms": 1000
+    },
+    {
+      "module": "node/veilid",
+      "need": "veilidnode",
+      "phase": "teardown",
+      "behaviour": "ok",
+      "ms": 10
+    }
+  ],
+  "expect": {
+    "total_under_ms": 1200,
+    "hooks": {
+      "actor-style-node-cleanup": "overran"
+    },
+    "never_ran": [
+      "node/veilid"
+    ],
+    "watchdog_fired": true
+  }
+}

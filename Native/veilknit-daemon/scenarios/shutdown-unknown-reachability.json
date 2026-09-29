@@ -1,0 +1,30 @@
+{
+  "name": "shutdown-unknown-reachability",
+  "description": "Reachability unknown. One cheap read resolves it before the tier is attempted.",
+  "reachability": "unknown",
+  "hooks": [
+    {
+      "module": "user_dht/presence",
+      "need": "network",
+      "behaviour": "ok",
+      "ms": 5000
+    },
+    {
+      "module": "node_list",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 20
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "total_under_ms": 2000,
+    "hooks": {
+      "user_dht/presence": "skipped",
+      "node_list": "ok"
+    },
+    "never_ran": [
+      "user_dht/presence"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "shutdown-clean",
+  "description": "All hooks well behaved. Baseline for every other scenario.",
+  "reachability": "reachable",
+  "hooks": [
+    {
+      "module": "api",
+      "need": "none",
+      "behaviour": "ok",
+      "ms": 20
+    },
+    {
+      "module": "user_dht/presence",
+      "need": "network",
+      "behaviour": "ok",
+      "ms": 30
+    },
+    {
+      "module": "handshake",
+      "need": "veilidnode",
+      "behaviour": "ok",
+      "ms": 15
+    },
+    {
+      "module": "dht_module/snapshot",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 40
+    },
+    {
+      "module": "node/veilid",
+      "need": "veilidnode",
+      "behaviour": "ok",
+      "ms": 25,
+      "phase": "teardown"
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "total_under_ms": 3000,
+    "hooks": {
+      "api": "ok",
+      "user_dht/presence": "ok",
+      "handshake": "ok",
+      "dht_module/snapshot": "ok",
+      "node/veilid": "ok"
+    }
+  }
+}

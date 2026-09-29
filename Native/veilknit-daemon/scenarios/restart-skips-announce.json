@@ -1,0 +1,30 @@
+{
+  "name": "restart-skips-announce",
+  "description": "Restart must not announce offline even when perfectly reachable.",
+  "reason": "restart",
+  "reachability": "reachable",
+  "hooks": [
+    {
+      "module": "user_dht/presence",
+      "need": "network",
+      "behaviour": "ok",
+      "ms": 50
+    },
+    {
+      "module": "dht_module/snapshot",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 20
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "hooks": {
+      "user_dht/presence": "skipped",
+      "dht_module/snapshot": "ok"
+    },
+    "never_ran": [
+      "user_dht/presence"
+    ]
+  }
+}

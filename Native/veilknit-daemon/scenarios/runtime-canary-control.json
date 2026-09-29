@@ -1,0 +1,30 @@
+{
+  "name": "runtime-canary-control",
+  "description": "Control for the canary. Hooks run well inside their budgets for long enough to produce several ticks, so a healthy gap here is measured rather than assumed.",
+  "budget_scale": 1.0,
+  "canary": true,
+  "hooks": [
+    {
+      "module": "steady_a",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 500,
+      "budget_ms": 4000
+    },
+    {
+      "module": "steady_b",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 500,
+      "budget_ms": 4000
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "canary_max_gap_ms": 200,
+    "hooks": {
+      "steady_a": "ok",
+      "steady_b": "ok"
+    }
+  }
+}

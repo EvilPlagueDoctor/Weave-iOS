@@ -1,0 +1,36 @@
+{
+  "name": "shutdown-detail-survives",
+  "description": "A cancellable async hook times out during its fragile second phase. Its last Progress step and verification flag must survive cancellation.",
+  "budget_scale": 1.0,
+  "hooks": [
+    {
+      "module": "mailbox",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 200,
+      "budget_ms": 120
+    },
+    {
+      "module": "node_list",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 20,
+      "budget_ms": 1000
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "total_under_ms": 1000,
+    "hooks": {
+      "mailbox": "overran",
+      "node_list": "ok"
+    },
+    "details": {
+      "mailbox": "second half",
+      "node_list": "finished cleanly"
+    },
+    "needs_verification": [
+      "mailbox"
+    ]
+  }
+}

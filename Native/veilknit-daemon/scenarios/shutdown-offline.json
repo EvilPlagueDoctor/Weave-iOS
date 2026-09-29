@@ -1,0 +1,38 @@
+{
+  "name": "shutdown-offline",
+  "description": "Network unreachable. The announce tier must be skipped wholesale, not attempted per hook.",
+  "reachability": "unreachable",
+  "hooks": [
+    {
+      "module": "user_dht/presence",
+      "need": "network",
+      "behaviour": "ok",
+      "ms": 5000
+    },
+    {
+      "module": "app/service_requests",
+      "need": "network",
+      "behaviour": "ok",
+      "ms": 5000
+    },
+    {
+      "module": "dht_module/snapshot",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 20
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "total_under_ms": 2000,
+    "hooks": {
+      "user_dht/presence": "skipped",
+      "app/service_requests": "skipped",
+      "dht_module/snapshot": "ok"
+    },
+    "never_ran": [
+      "user_dht/presence",
+      "app/service_requests"
+    ]
+  }
+}

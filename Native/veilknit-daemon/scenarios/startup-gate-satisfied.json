@@ -1,0 +1,34 @@
+{
+  "name": "startup-gate-satisfied",
+  "description": "A module waits on MainDht and is released when the stage completes.",
+  "stages": [
+    {
+      "stage": "main_dht",
+      "outcome": "ready",
+      "after_ms": 60
+    }
+  ],
+  "waiters": [
+    {
+      "module": "route_manager",
+      "stage": "main_dht",
+      "timeout_ms": 2000
+    }
+  ],
+  "hooks": [
+    {
+      "module": "route_manager",
+      "need": "veilidnode",
+      "behaviour": "ok",
+      "ms": 10
+    }
+  ],
+  "expect": {
+    "waiters": {
+      "route_manager": "ready"
+    },
+    "hooks": {
+      "route_manager": "ok"
+    }
+  }
+}

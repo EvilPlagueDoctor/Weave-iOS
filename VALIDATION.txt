@@ -1,0 +1,19 @@
+Weave iOS Phase 6.12.6 conversion validation
+
+Validated in the Linux conversion environment:
+- swiftc -parse: PASS for all 20 Swift files
+- clang C header syntax: PASS
+- JSON asset catalogs / translation map: PASS
+- Info.plist parsing: PASS
+- startup tip count: 41
+- translation map entries: 535
+- VSPF profile format: v4
+- C ABI audit: all 14 symbols used by Swift are declared in veilknit_ios.h and implemented in ios_bridge.rs
+- shell script syntax: PASS
+- project.yml YAML parse: PASS
+
+Not executable in this environment:
+- Apple Rust target compilation (Rust Apple targets/Xcode unavailable here)
+- Xcode link / iOS Simulator run
+
+Use ./Scripts/build_simulator.sh on macOS, or the included GitHub Actions workflow, for the Apple toolchain validation pass.

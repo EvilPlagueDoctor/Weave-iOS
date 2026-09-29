@@ -1,0 +1,25 @@
+{
+  "name": "shutdown-failing-hook",
+  "description": "A hook returns an error. Its neighbours must still complete.",
+  "hooks": [
+    {
+      "module": "broken",
+      "need": "storage",
+      "behaviour": "error",
+      "ms": 10
+    },
+    {
+      "module": "healthy",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 10
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "hooks": {
+      "broken": "failed",
+      "healthy": "ok"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+WalkNodeObserved dedup/cache/concurrency test build
+==================================================
+
+This build keeps the shutdown fixes and deep mailbox-walk diagnostics, and changes
+custodian pointer processing so repeated service pointers do not repeatedly fetch
+the same remote data.
+
+New observation flow:
+
+1. Read/validate the custodian mailbox store.
+2. Resolve all recipient entries to MailSourcePointer lists.
+3. Record local custodian observations.
+4. Select service-request candidates round-robin across recipient entries.
+   - duplicate message IDs count once;
+   - recently verified service requests are skipped;
+   - one noisy recipient entry cannot consume the whole check budget first.
+5. Select private-message candidates, deduplicated by message ID.
+6. Group the selected union by (sender main DHT, MailSend DHT).
+7. Fetch each unique sender advertisement once, with at most 4 distinct remote
+   fetches in flight at once.
+8. From those advertisements, fetch each currently advertised unique MailSend
+   store once, also with at most 4 distinct store fetches in flight at once.
+9. Perform pointer lookup/signature/timestamp/decryption work locally against the
+   cached advertisement/store data.
+
+The DHT module's existing subkey concurrency remains unchanged underneath this
+outer concurrency.
+
+Useful mailbox-walk-debug.log lines:
+
+  CUSTODIAN PLAN ... raw_pointers=... selected_pointers=...
+      unique_message_ids=... unique_service_groups=...
+
+  CUSTODIAN CACHE PLAN ... unique_senders=... unique_service_groups=...
+
+  CUSTODIAN CACHE ADVERTISEMENTS END ... unique_mail_send_stores=...
+
+  CUSTODIAN GROUP FETCH END ... total_cache_elapsed=... cached_senders=...
+      cached_stores=...
+
+  CUSTODIAN END ... total_elapsed=...
+
+For the prior pathological sample, the interesting comparison is whether dozens
+of pointers collapse to roughly one sender advertisement fetch and one MailSend
+store fetch, and how far CUSTODIAN/OBS total_elapsed falls from ~43-46 seconds.

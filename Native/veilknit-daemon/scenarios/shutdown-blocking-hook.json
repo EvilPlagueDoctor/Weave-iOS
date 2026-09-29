@@ -1,0 +1,37 @@
+{
+  "name": "shutdown-blocking-hook",
+  "description": "A hook that synchronously blocks a Tokio worker violates the lifecycle contract. The outer tier ceiling must classify it as uncooperative instead of tearing later resources down underneath it.",
+  "budget_scale": 0.02,
+  "canary": true,
+  "hooks": [
+    {
+      "module": "wedged",
+      "need": "storage",
+      "behaviour": "block_thread",
+      "ms": 1000
+    },
+    {
+      "module": "normal",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 10
+    },
+    {
+      "module": "node/veilid",
+      "need": "veilidnode",
+      "phase": "teardown",
+      "behaviour": "ok",
+      "ms": 10
+    }
+  ],
+  "expect": {
+    "total_under_ms": 1500,
+    "hooks": {
+      "wedged": "overran"
+    },
+    "never_ran": [
+      "node/veilid"
+    ],
+    "watchdog_fired": true
+  }
+}

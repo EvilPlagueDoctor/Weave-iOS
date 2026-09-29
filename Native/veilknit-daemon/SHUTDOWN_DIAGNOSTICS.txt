@@ -1,0 +1,72 @@
+VeilKnit shutdown diagnostic build - mailbox deep trace
+=======================================================
+
+Shutdown diagnostics are always written to the persistent text file:
+
+       ./user_data/shutdown-debug.log
+
+The file is capped at 100,000 lines. When it reaches the cap, the oldest lines are trimmed so the
+newest 90,000 remain before logging continues. Every process gets a session marker containing its
+PID. This keeps the trace useful without allowing a long-running background daemon to grow the
+file indefinitely.
+
+Live stderr / console mirroring is OFF by default. For a diagnostic session, set:
+
+       VEILKNIT_DIAGNOSTICS_STDERR=1
+
+before starting the daemon; shutdown lines will then also appear as `[shutdown-debug] ...`.
+
+The most useful information is the LAST shutdown-debug line before the process exits.
+Please copy the latest session from shutdown-debug.log back into ChatGPT if shutdown misbehaves.
+
+Important lifecycle markers:
+- PLAN        = hook was registered and where Lifecycle intends to run it.
+- TIER START  = Lifecycle reached that shutdown tier.
+- HOOK START  = the hook future was actually launched.
+- HOOK FINISH = the hook future returned, panicked, or hit its own timeout.
+- JOINED      = Lifecycle successfully collected the hook result.
+- TIER END    = all expected work for that tier was accounted for.
+- WATCHDOG RUNNING = what the independent watchdog still believed was alive when it fired.
+
+Walker markers:
+- walker actor / walk session task = ownership, cancellation, abort and join state for active walks.
+- auto-walk scheduler = scheduler stop-signal and task-join state.
+
+Mailbox markers added in this build:
+- mailbox manager: Shutdown command queued = manager successfully placed shutdown into actor queue.
+- mailbox actor: COMMAND START/END = what the mailbox actor is currently processing and for how long.
+- mailbox actor: SHUTDOWN received = shutdown reached the front of the mailbox command queue.
+- mailbox flush[shutdown] = high-level shutdown flush stages and pending page counts.
+- mailbox commit[shutdown] = deep copy-on-write DHT commit stages:
+    * PAGE WRITES
+    * PAGE READBACK
+    * INDEX WRITE
+    * INDEX READBACK
+    * GENERATION VALIDATION
+- mailbox actor: shutdown acknowledgement sent = mailbox actor has finished and is exiting.
+
+Diagnostic timing changes:
+- Mailbox hook budget: 15 seconds (temporarily widened to measure the real flush duration).
+- Walker hook budget: 6 seconds.
+- Node-dependent tier ceiling: 18 seconds.
+- Independent watchdog: 65 seconds.
+
+The active-walk/scheduler fixes from the previous build are retained.
+
+Mailbox cancellation fix added after the latest trace:
+- Mailbox shutdown now sends an out-of-band watch signal BEFORE queueing MailboxCommand::Shutdown.
+- A currently-running WalkNodeObserved command listens for that signal and drops its in-flight work.
+- Commands already queued ahead of Shutdown are skipped once the stop signal is set.
+- Normal post-command flush/snapshot work is skipped while shutdown is pending so the explicit
+  Shutdown command gets control as quickly as possible.
+- Batch and maintenance work are also interruptible by the out-of-band shutdown signal.
+- Foreign DHT read workers now observe their oneshot reply receiver closing. If the mailbox drops
+  an in-flight foreign read during shutdown, the DHT worker cancels that Veilid operation instead
+  of continuing invisibly in the background.
+
+New useful markers:
+- mailbox manager: out-of-band stop signal sent
+- mailbox actor: WalkNodeObserved INTERRUPTED by shutdown
+- mailbox actor: COMMAND SKIPPED ... because shutdown is pending
+- mailbox actor: post-command maintenance skipped because shutdown is pending
+- dht ... foreign read: caller dropped; cancelling in-flight operation

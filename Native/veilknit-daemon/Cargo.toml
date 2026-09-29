@@ -1,0 +1,72 @@
+[package]
+name = "veilid_test_node"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+name = "veilknit_daemon"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib", "staticlib"]
+
+[[bin]]
+name = "veilid_test_node"
+path = "src/main.rs"
+
+
+[features]
+default = []
+console-ui = ["dep:crossterm"]
+
+[dependencies]
+tokio = {version = "1", features = ["full"] }
+flume = "0.12"
+serde_json = "1.0"
+veilid-core = { git = "https://gitlab.com/veilid/veilid.git", branch = "0.5.7-debug" }
+base64 = "0.21" # or latest version
+# better error Messages
+anyhow = "1.0"
+
+arc-swap = "1"
+futures = "0.3"
+
+# Log In System
+argon2 = "0.5"
+bincode = "1.3"
+hex = "0.4"
+
+serde = { version = "1", features = ["derive"] }
+sha2 = "0.10"
+hmac = "0.12"
+uuid = { version = "1", features = ["v4"] }
+
+zeroize = "1"
+aes-gcm = "0.10"
+blake3 = "1"
+unicode-normalization = "0.1"
+unicode-segmentation = "1"
+deunicode = "1"
+ed25519-dalek = { version = "2", features = ["rand_core", "serde"] }
+
+x25519-dalek = { version = "2", features = ["static_secrets"] }  # or whatever features EphemeralSecret::random_from_rng needs in your locked version
+rand_core = "0.6"
+rand = "0.8"
+
+crossterm = { version = "0.28", optional = true }
+
+
+[workspace]
+resolver = "2"
+members = [".", "crates/daemon_network_sdk", "crates/network_api_client"]
+default-members = ["."]
+
+[target.'cfg(target_os = "android")'.dependencies]
+jni = "0.22.4"
+
+[profile.release]
+opt-level = 3
+debug = 0
+strip = "symbols"
+lto = "thin"
+codegen-units = 1
+incremental = false
+panic = "abort"

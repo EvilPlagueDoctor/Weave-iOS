@@ -1,0 +1,27 @@
+{
+  "name": "shutdown-slow-hook",
+  "description": "One hook exceeds its budget. It must be recorded and abandoned, not awaited.",
+  "hooks": [
+    {
+      "module": "slow_persist",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 30000,
+      "budget_ms": 2000
+    },
+    {
+      "module": "fast_persist",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 20
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "total_under_ms": 3000,
+    "hooks": {
+      "slow_persist": "overran",
+      "fast_persist": "ok"
+    }
+  }
+}

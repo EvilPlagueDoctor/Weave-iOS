@@ -1,0 +1,23 @@
+{
+  "name": "startup-gate-fails",
+  "description": "A failed stage releases its waiters as unavailable rather than parking them forever.",
+  "stages": [
+    {
+      "stage": "routes",
+      "outcome": "unavailable",
+      "after_ms": 40
+    }
+  ],
+  "waiters": [
+    {
+      "module": "stream_transport",
+      "stage": "routes",
+      "timeout_ms": 2000
+    }
+  ],
+  "expect": {
+    "waiters": {
+      "stream_transport": "unavailable"
+    }
+  }
+}

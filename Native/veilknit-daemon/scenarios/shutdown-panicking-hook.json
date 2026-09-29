@@ -1,0 +1,25 @@
+{
+  "name": "shutdown-panicking-hook",
+  "description": "A hook panics. One bad module must not take its tier down.",
+  "hooks": [
+    {
+      "module": "exploding",
+      "need": "storage",
+      "behaviour": "panic",
+      "ms": 0
+    },
+    {
+      "module": "bystander",
+      "need": "storage",
+      "behaviour": "ok",
+      "ms": 10
+    }
+  ],
+  "expect": {
+    "watchdog_fired": false,
+    "hooks": {
+      "bystander": "ok",
+      "exploding": "failed"
+    }
+  }
+}

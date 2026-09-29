@@ -1,0 +1,16 @@
+{
+  "name": "startup-gate-never-completes",
+  "description": "A stage nobody completes. The waiter gives up on its own ceiling instead of hanging.",
+  "waiters": [
+    {
+      "module": "mailbox",
+      "stage": "mailbox",
+      "timeout_ms": 150
+    }
+  ],
+  "expect": {
+    "waiters": {
+      "mailbox": "pending"
+    }
+  }
+}

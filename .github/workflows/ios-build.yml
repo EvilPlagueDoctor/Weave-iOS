@@ -1,0 +1,24 @@
+name: iOS build
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'WeaveIOS/**'
+      - 'Native/**'
+      - 'Scripts/**'
+      - 'project.yml'
+      - '.github/workflows/ios-build.yml'
+jobs:
+  simulator:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: brew install xcodegen
+      - run: ./Scripts/build_simulator.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Weave-iOS-Simulator
+          path: build/DerivedData/Build/Products/Debug-iphonesimulator/Weave.app
+          if-no-files-found: error

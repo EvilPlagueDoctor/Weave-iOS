@@ -1,0 +1,3212 @@
+{
+  "Set up your profile": {
+    "fr": "Configurer votre profil",
+    "es": "Configura tu perfil",
+    "ru": "Настройте профиль",
+    "zh-Hans": "设置你的个人资料"
+  },
+  "This is a persona, not your real name. You can make another one any time, and nothing here is tied to who you are.": {
+    "fr": "C’est un personnage, pas votre vrai nom. Vous pouvez en créer un autre à tout moment, et rien ici n’est lié à votre identité réelle.",
+    "es": "Es una identidad de perfil, no tu nombre real. Puedes crear otra en cualquier momento y nada de esto está vinculado a quién eres.",
+    "ru": "Это образ, а не ваше настоящее имя. Вы можете создать другой в любое время; здесь ничего не привязано к вашей реальной личности.",
+    "zh-Hans": "这是一个网络身份，不是你的真实姓名。你可以随时创建另一个，这里的内容不会与你的真实身份绑定。"
+  },
+  "Your avatar": {
+    "fr": "Votre avatar",
+    "es": "Tu avatar",
+    "ru": "Ваш аватар",
+    "zh-Hans": "你的头像"
+  },
+  "Generated from your key, so nobody else can produce it.": {
+    "fr": "Généré à partir de votre clé, personne d’autre ne peut produire le même.",
+    "es": "Generado a partir de tu clave, por lo que nadie más puede producirlo.",
+    "ru": "Создаётся из вашего ключа, поэтому никто другой не сможет получить такой же.",
+    "zh-Hans": "根据你的密钥生成，因此其他人无法生成相同头像。"
+  },
+  "Display name": {
+    "fr": "Nom affiché",
+    "es": "Nombre visible",
+    "ru": "Отображаемое имя",
+    "zh-Hans": "显示名称"
+  },
+  "Page colour": {
+    "fr": "Couleur de la page",
+    "es": "Color de la página",
+    "ru": "Цвет страницы",
+    "zh-Hans": "页面颜色"
+  },
+  "A line about you (optional)": {
+    "fr": "Une phrase à propos de vous (facultatif)",
+    "es": "Una línea sobre ti (opcional)",
+    "ru": "Строка о вас (необязательно)",
+    "zh-Hans": "关于你的一句话（可选）"
+  },
+  "Left blank is fine. Whatever you write here is public and is what discovery matches on.": {
+    "fr": "Vous pouvez laisser ce champ vide. Tout ce que vous écrivez ici est public et sert à la recherche.",
+    "es": "Puedes dejarlo en blanco. Lo que escribas aquí es público y se usa para las coincidencias de búsqueda.",
+    "ru": "Можно оставить пустым. Всё написанное здесь публично и используется при поиске.",
+    "zh-Hans": "可以留空。你在这里填写的内容是公开的，并会用于搜索匹配。"
+  },
+  "Choose an image (optional)": {
+    "fr": "Choisir une image (facultatif)",
+    "es": "Elegir una imagen (opcional)",
+    "ru": "Выбрать изображение (необязательно)",
+    "zh-Hans": "选择图片（可选）"
+  },
+  "Change image": {
+    "fr": "Changer l’image",
+    "es": "Cambiar imagen",
+    "ru": "Сменить изображение",
+    "zh-Hans": "更换图片"
+  },
+  "Create my profile": {
+    "fr": "Créer mon profil",
+    "es": "Crear mi perfil",
+    "ru": "Создать мой профиль",
+    "zh-Hans": "创建我的个人资料"
+  },
+  "Your profile isn't published until you choose to publish it.": {
+    "fr": "Votre profil n’est pas publié tant que vous ne choisissez pas de le publier.",
+    "es": "Tu perfil no se publica hasta que tú decidas publicarlo.",
+    "ru": "Профиль не публикуется, пока вы сами не выберете публикацию.",
+    "zh-Hans": "只有当你主动选择发布时，个人资料才会公开。"
+  },
+  "Not published yet": {
+    "fr": "Pas encore publié",
+    "es": "Aún no publicado",
+    "ru": "Ещё не опубликовано",
+    "zh-Hans": "尚未发布"
+  },
+  "Published": {
+    "fr": "Publié",
+    "es": "Publicado",
+    "ru": "Опубликовано",
+    "zh-Hans": "已发布"
+  },
+  "Publish": {
+    "fr": "Publier",
+    "es": "Publicar",
+    "ru": "Опубликовать",
+    "zh-Hans": "发布"
+  },
+  "Publishing": {
+    "fr": "Publication…",
+    "es": "Publicando…",
+    "ru": "Публикация…",
+    "zh-Hans": "正在发布…"
+  },
+  "Draft": {
+    "fr": "Brouillon",
+    "es": "Borrador",
+    "ru": "Черновик",
+    "zh-Hans": "草稿"
+  },
+  "Live": {
+    "fr": "En ligne",
+    "es": "Publicado",
+    "ru": "Опубликовано",
+    "zh-Hans": "已公开"
+  },
+  "Nothing published yet": {
+    "fr": "Rien n’est encore publié",
+    "es": "Todavía no hay nada publicado",
+    "ru": "Пока ничего не опубликовано",
+    "zh-Hans": "尚未发布任何内容"
+  },
+  "What everyone else sees": {
+    "fr": "Ce que les autres voient",
+    "es": "Lo que ven los demás",
+    "ru": "Что видят остальные",
+    "zh-Hans": "其他人看到的内容"
+  },
+  "Your unpublished changes": {
+    "fr": "Vos modifications non publiées",
+    "es": "Tus cambios sin publicar",
+    "ru": "Ваши неопубликованные изменения",
+    "zh-Hans": "你尚未发布的更改"
+  },
+  "Advanced": {
+    "fr": "Avancé",
+    "es": "Avanzado",
+    "ru": "Расширенный",
+    "zh-Hans": "高级"
+  },
+  "Edit": {
+    "fr": "Modifier",
+    "es": "Editar",
+    "ru": "Изменить",
+    "zh-Hans": "编辑"
+  },
+  "Settings": {
+    "fr": "Paramètres",
+    "es": "Ajustes",
+    "ru": "Настройки",
+    "zh-Hans": "设置"
+  },
+  "Unpublish profile": {
+    "fr": "Dépublier le profil",
+    "es": "Retirar perfil",
+    "ru": "Снять профиль с публикации",
+    "zh-Hans": "取消发布个人资料"
+  },
+  "Unpublish": {
+    "fr": "Dépublier",
+    "es": "Retirar",
+    "ru": "Снять с публикации",
+    "zh-Hans": "取消发布"
+  },
+  "Cancel": {
+    "fr": "Annuler",
+    "es": "Cancelar",
+    "ru": "Отмена",
+    "zh-Hans": "取消"
+  },
+  "Search": {
+    "fr": "Rechercher",
+    "es": "Buscar",
+    "ru": "Поиск",
+    "zh-Hans": "搜索"
+  },
+  "Search profiles": {
+    "fr": "Rechercher des profils",
+    "es": "Buscar perfiles",
+    "ru": "Искать профили",
+    "zh-Hans": "搜索个人资料"
+  },
+  "Librarian data": {
+    "fr": "Données du bibliothécaire",
+    "es": "Datos del bibliotecario",
+    "ru": "Данные библиотекаря",
+    "zh-Hans": "资料库数据"
+  },
+  "Clear examples": {
+    "fr": "Effacer les exemples",
+    "es": "Borrar ejemplos",
+    "ru": "Очистить примеры",
+    "zh-Hans": "清除示例"
+  },
+  "Copy to clipboard": {
+    "fr": "Copier dans le presse-papiers",
+    "es": "Copiar al portapapeles",
+    "ru": "Копировать в буфер",
+    "zh-Hans": "复制到剪贴板"
+  },
+  "Close": {
+    "fr": "Fermer",
+    "es": "Cerrar",
+    "ru": "Закрыть",
+    "zh-Hans": "关闭"
+  },
+  "Done": {
+    "fr": "Terminé",
+    "es": "Listo",
+    "ru": "Готово",
+    "zh-Hans": "完成"
+  },
+  "Discard": {
+    "fr": "Annuler les modifications",
+    "es": "Descartar",
+    "ru": "Отменить изменения",
+    "zh-Hans": "放弃更改"
+  },
+  "Profile name": {
+    "fr": "Nom du profil",
+    "es": "Nombre del perfil",
+    "ru": "Имя профиля",
+    "zh-Hans": "个人资料名称"
+  },
+  "+ Heading": {
+    "fr": "+ Titre",
+    "es": "+ Encabezado",
+    "ru": "+ Заголовок",
+    "zh-Hans": "+ 标题"
+  },
+  "+ Text": {
+    "fr": "+ Texte",
+    "es": "+ Texto",
+    "ru": "+ Текст",
+    "zh-Hans": "+ 文本"
+  },
+  "+ Image": {
+    "fr": "+ Image",
+    "es": "+ Imagen",
+    "ru": "+ Изображение",
+    "zh-Hans": "+ 图片"
+  },
+  "+ Camera": {
+    "fr": "+ Caméra",
+    "es": "+ Cámara",
+    "ru": "+ Камера",
+    "zh-Hans": "+ 相机"
+  },
+  "+ DHT image": {
+    "fr": "+ Image DHT",
+    "es": "+ Imagen DHT",
+    "ru": "+ Изображение DHT",
+    "zh-Hans": "+ DHT 图片"
+  },
+  "DHT image location": {
+    "fr": "Emplacement DHT de l’image",
+    "es": "Ubicación DHT de la imagen",
+    "ru": "DHT-адрес изображения",
+    "zh-Hans": "图片 DHT 地址"
+  },
+  "Paste the image's DHT record key.": {
+    "fr": "Collez la clé d’enregistrement DHT de l’image.",
+    "es": "Pega la clave de registro DHT de la imagen.",
+    "ru": "Вставьте ключ DHT-записи изображения.",
+    "zh-Hans": "粘贴图片的 DHT 记录密钥。"
+  },
+  "Import": {
+    "fr": "Importer",
+    "es": "Importar",
+    "ru": "Импортировать",
+    "zh-Hans": "导入"
+  },
+  "Preparing the image…": {
+    "fr": "Préparation de l’image…",
+    "es": "Preparando la imagen…",
+    "ru": "Подготовка изображения…",
+    "zh-Hans": "正在处理图片…"
+  },
+  "Images keep transparent areas; photos are still compressed to save bandwidth.": {
+    "fr": "Les zones transparentes sont conservées ; les photos restent compressées pour économiser la bande passante.",
+    "es": "Las áreas transparentes se conservan; las fotos siguen comprimidas para ahorrar ancho de banda.",
+    "ru": "Прозрачные области сохраняются; фотографии всё равно сжимаются для экономии трафика.",
+    "zh-Hans": "透明区域会被保留；普通照片仍会压缩以节省带宽。"
+  },
+  "Language": {
+    "fr": "Langue",
+    "es": "Idioma",
+    "ru": "Язык",
+    "zh-Hans": "语言"
+  },
+  "Widgets": {
+    "fr": "Widgets",
+    "es": "Widgets",
+    "ru": "Виджеты",
+    "zh-Hans": "小组件"
+  },
+  "Discovery": {
+    "fr": "Découverte",
+    "es": "Descubrimiento",
+    "ru": "Поиск людей",
+    "zh-Hans": "发现"
+  },
+  "Diagnostics": {
+    "fr": "Diagnostics",
+    "es": "Diagnóstico",
+    "ru": "Диагностика",
+    "zh-Hans": "诊断"
+  },
+  "Recently found": {
+    "fr": "Trouvés récemment",
+    "es": "Encontrados recientemente",
+    "ru": "Недавно найденные",
+    "zh-Hans": "最近发现"
+  },
+  "Everyone": {
+    "fr": "Tout le monde",
+    "es": "Todos",
+    "ru": "Все",
+    "zh-Hans": "所有人"
+  },
+  "Following": {
+    "fr": "Abonnements",
+    "es": "Siguiendo",
+    "ru": "Подписки",
+    "zh-Hans": "正在关注"
+  },
+  "Activity": {
+    "fr": "Activité",
+    "es": "Actividad",
+    "ru": "Активность",
+    "zh-Hans": "动态"
+  },
+  "Me": {
+    "fr": "Moi",
+    "es": "Yo",
+    "ru": "Я",
+    "zh-Hans": "我"
+  },
+  "Home": {
+    "fr": "Accueil",
+    "es": "Inicio",
+    "ru": "Главная",
+    "zh-Hans": "主页"
+  },
+  "Don't forget to publish your profile!": {
+    "fr": "N'oubliez pas de publier votre profil !",
+    "es": "¡No olvides publicar tu perfil!",
+    "ru": "Не забудьте опубликовать свой профиль!",
+    "zh-Hans": "别忘了发布你的个人资料！"
+  },
+  "Your profile stays unpublished until you choose to publish it.": {
+    "fr": "Votre profil reste non publié jusqu'à ce que vous choisissiez de le publier.",
+    "es": "Tu perfil permanece sin publicar hasta que decidas publicarlo.",
+    "ru": "Ваш профиль останется неопубликованным, пока вы сами его не опубликуете.",
+    "zh-Hans": "在你主动发布之前，你的个人资料会保持未发布状态。"
+  },
+  "You can switch between Basic and Advanced profile editing at any time.": {
+    "fr": "Vous pouvez passer de l'éditeur Basique à l'éditeur Avancé à tout moment.",
+    "es": "Puedes cambiar entre la edición Básica y Avanzada en cualquier momento.",
+    "ru": "Вы можете в любой момент переключаться между простым и расширенным редактором профиля.",
+    "zh-Hans": "你可以随时在基础和高级个人资料编辑器之间切换。"
+  },
+  "Advanced profiles can use multiple pages.": {
+    "fr": "Les profils avancés peuvent utiliser plusieurs pages.",
+    "es": "Los perfiles avanzados pueden usar varias páginas.",
+    "ru": "Расширенные профили могут содержать несколько страниц.",
+    "zh-Hans": "高级个人资料可以使用多个页面。"
+  },
+  "Use Pages & Layers to change which elements appear in front.": {
+    "fr": "Utilisez Pages et calques pour choisir quels éléments apparaissent devant.",
+    "es": "Usa Páginas y capas para cambiar qué elementos aparecen delante.",
+    "ru": "Используйте «Страницы и слои», чтобы менять, какие элементы отображаются поверх других.",
+    "zh-Hans": "使用“页面与图层”可以调整哪些元素显示在前面。"
+  },
+  "Long-press a page or layer to move it.": {
+    "fr": "Appuyez longuement sur une page ou un calque pour le déplacer.",
+    "es": "Mantén pulsada una página o capa para moverla.",
+    "ru": "Нажмите и удерживайте страницу или слой, чтобы переместить его.",
+    "zh-Hans": "长按页面或图层即可移动它。"
+  },
+  "Your profile can include images, audio, widgets, links, and more.": {
+    "fr": "Votre profil peut contenir des images, de l'audio, des widgets, des liens et plus encore.",
+    "es": "Tu perfil puede incluir imágenes, audio, widgets, enlaces y más.",
+    "ru": "В профиль можно добавлять изображения, аудио, виджеты, ссылки и многое другое.",
+    "zh-Hans": "你的个人资料可以包含图片、音频、小组件、链接等内容。"
+  },
+  "Widgets only load when you choose to open them.": {
+    "fr": "Les widgets ne se chargent que lorsque vous choisissez de les ouvrir.",
+    "es": "Los widgets solo se cargan cuando decides abrirlos.",
+    "ru": "Виджеты загружаются только когда вы сами решаете их открыть.",
+    "zh-Hans": "小组件只有在你选择打开时才会加载。"
+  },
+  "You can disable widget loading in Settings.": {
+    "fr": "Vous pouvez désactiver le chargement des widgets dans les paramètres.",
+    "es": "Puedes desactivar la carga de widgets en Ajustes.",
+    "ru": "Загрузку виджетов можно отключить в настройках.",
+    "zh-Hans": "你可以在设置中关闭小组件加载。"
+  },
+  "External links show a warning before opening your browser.": {
+    "fr": "Les liens externes affichent un avertissement avant d'ouvrir votre navigateur.",
+    "es": "Los enlaces externos muestran una advertencia antes de abrir el navegador.",
+    "ru": "Перед открытием внешней ссылки в браузере появляется предупреждение.",
+    "zh-Hans": "外部链接会在打开浏览器前显示警告。"
+  },
+  "Images are filtered locally on your device according to your settings.": {
+    "fr": "Les images sont filtrées localement sur votre appareil selon vos réglages.",
+    "es": "Las imágenes se filtran localmente en tu dispositivo según tus ajustes.",
+    "ru": "Изображения фильтруются локально на вашем устройстве согласно настройкам.",
+    "zh-Hans": "图片会根据你的设置在本机进行过滤。"
+  },
+  "Content filtering does not require uploading your images to a moderation server.": {
+    "fr": "Le filtrage du contenu ne nécessite pas d'envoyer vos images à un serveur de modération.",
+    "es": "El filtrado de contenido no requiere subir tus imágenes a un servidor de moderación.",
+    "ru": "Для фильтрации контента не нужно загружать изображения на сервер модерации.",
+    "zh-Hans": "内容过滤不需要把你的图片上传到审核服务器。"
+  },
+  "You can adjust content-filter sensitivity in Settings.": {
+    "fr": "Vous pouvez régler la sensibilité du filtre de contenu dans les paramètres.",
+    "es": "Puedes ajustar la sensibilidad del filtro de contenido en Ajustes.",
+    "ru": "Чувствительность фильтра контента можно изменить в настройках.",
+    "zh-Hans": "你可以在设置中调整内容过滤的灵敏度。"
+  },
+  "Group moderation is branch-based — you can choose which moderation branch you follow.": {
+    "fr": "La modération des groupes fonctionne par branches — vous pouvez choisir celle que vous suivez.",
+    "es": "La moderación de grupos usa ramas: puedes elegir qué rama de moderación seguir.",
+    "ru": "Модерация групп основана на ветках — вы можете выбрать, за какой веткой модерации следовать.",
+    "zh-Hans": "群组管理采用分支机制——你可以选择要跟随的管理分支。"
+  },
+  "If a group's original moderator disappears, another user can claim a moderation branch.": {
+    "fr": "Si le modérateur d'origine d'un groupe disparaît, un autre utilisateur peut revendiquer une branche de modération.",
+    "es": "Si desaparece el moderador original de un grupo, otro usuario puede reclamar una rama de moderación.",
+    "ru": "Если исходный модератор группы исчезнет, другой пользователь может заявить ветку модерации.",
+    "zh-Hans": "如果群组的原始管理员消失，其他用户可以认领一个管理分支。"
+  },
+  "Tap a group's Original/Claim label to switch moderation branches.": {
+    "fr": "Touchez l'étiquette Original/Revendication d'un groupe pour changer de branche de modération.",
+    "es": "Toca la etiqueta Original/Reclamación de un grupo para cambiar de rama de moderación.",
+    "ru": "Нажмите метку Original/Claim группы, чтобы переключить ветку модерации.",
+    "zh-Hans": "点击群组的 Original/Claim 标签即可切换管理分支。"
+  },
+  "Posts can contain images and audio.": {
+    "fr": "Les publications peuvent contenir des images et de l'audio.",
+    "es": "Las publicaciones pueden contener imágenes y audio.",
+    "ru": "Публикации могут содержать изображения и аудио.",
+    "zh-Hans": "帖子可以包含图片和音频。"
+  },
+  "Full-size media is only fetched when you open it.": {
+    "fr": "Les médias en taille réelle ne sont récupérés que lorsque vous les ouvrez.",
+    "es": "El contenido multimedia a tamaño completo solo se descarga cuando lo abres.",
+    "ru": "Медиафайлы полного размера загружаются только когда вы их открываете.",
+    "zh-Hans": "完整尺寸的媒体只有在你打开时才会获取。"
+  },
+  "Comments on your profile can take a little while to arrive.": {
+    "fr": "Les commentaires sur votre profil peuvent mettre un peu de temps à arriver.",
+    "es": "Los comentarios de tu perfil pueden tardar un poco en llegar.",
+    "ru": "Комментарии к вашему профилю могут приходить с небольшой задержкой.",
+    "zh-Hans": "个人资料评论可能需要一点时间才会到达。"
+  },
+  "Weave has no private-message system — conversations are meant to stay visible.": {
+    "fr": "Weave n'a pas de messagerie privée — les conversations sont conçues pour rester visibles.",
+    "es": "Weave no tiene mensajes privados: las conversaciones están pensadas para permanecer visibles.",
+    "ru": "В Weave нет личных сообщений — разговоры задуманы как открытые.",
+    "zh-Hans": "Weave 没有私信系统——对话本来就是公开可见的。"
+  },
+  "Search can discover people, groups, and related content.": {
+    "fr": "La recherche peut découvrir des personnes, des groupes et du contenu associé.",
+    "es": "La búsqueda puede descubrir personas, grupos y contenido relacionado.",
+    "ru": "Поиск помогает находить людей, группы и связанный контент.",
+    "zh-Hans": "搜索可以发现用户、群组和相关内容。"
+  },
+  "Your device helps carry public network information for other users.": {
+    "fr": "Votre appareil aide à transporter des informations publiques du réseau pour d'autres utilisateurs.",
+    "es": "Tu dispositivo ayuda a transportar información pública de la red para otros usuarios.",
+    "ru": "Ваше устройство помогает передавать публичную сетевую информацию для других пользователей.",
+    "zh-Hans": "你的设备会帮助其他用户传递公开的网络信息。"
+  },
+  "Custody helps keep group submissions alive while moderators are offline.": {
+    "fr": "La garde aide à conserver les soumissions de groupe pendant que les modérateurs sont hors ligne.",
+    "es": "La custodia ayuda a mantener las publicaciones del grupo mientras los moderadores están desconectados.",
+    "ru": "Механизм хранения помогает сохранять материалы группы, пока модераторы не в сети.",
+    "zh-Hans": "托管机制可在管理员离线时帮助保留群组提交内容。"
+  },
+  "Your account can be backed up from Settings → This identity.": {
+    "fr": "Vous pouvez sauvegarder votre compte depuis Paramètres → Cette identité.",
+    "es": "Puedes hacer una copia de seguridad de tu cuenta desde Ajustes → Esta identidad.",
+    "ru": "Резервную копию аккаунта можно создать в Настройки → Эта личность.",
+    "zh-Hans": "你可以从“设置 → 此身份”备份账户。"
+  },
+  "Make an account backup before moving to a new device.": {
+    "fr": "Créez une sauvegarde du compte avant de passer à un nouvel appareil.",
+    "es": "Haz una copia de seguridad de tu cuenta antes de cambiar de dispositivo.",
+    "ru": "Сделайте резервную копию аккаунта перед переходом на новое устройство.",
+    "zh-Hans": "更换设备前请先备份账户。"
+  },
+  "Your Weave identity is tied to your VeilKnit account.": {
+    "fr": "Votre identité Weave est liée à votre compte VeilKnit.",
+    "es": "Tu identidad de Weave está vinculada a tu cuenta de VeilKnit.",
+    "ru": "Ваша личность Weave связана с аккаунтом VeilKnit.",
+    "zh-Hans": "你的 Weave 身份与 VeilKnit 账户绑定。"
+  },
+  "You can copy group links and share them directly.": {
+    "fr": "Vous pouvez copier les liens de groupe et les partager directement.",
+    "es": "Puedes copiar enlaces de grupos y compartirlos directamente.",
+    "ru": "Ссылки на группы можно копировать и отправлять напрямую.",
+    "zh-Hans": "你可以复制群组链接并直接分享。"
+  },
+  "A group can have several moderation branches without changing the original group.": {
+    "fr": "Un groupe peut avoir plusieurs branches de modération sans modifier le groupe d'origine.",
+    "es": "Un grupo puede tener varias ramas de moderación sin cambiar el grupo original.",
+    "ru": "У группы может быть несколько веток модерации без изменения исходной группы.",
+    "zh-Hans": "一个群组可以拥有多个管理分支，而不改变原始群组。"
+  },
+  "Profile comments can be kept or rejected by the profile owner.": {
+    "fr": "Les commentaires de profil peuvent être conservés ou rejetés par le propriétaire du profil.",
+    "es": "El propietario del perfil puede conservar o rechazar los comentarios del perfil.",
+    "ru": "Владелец профиля может сохранить или отклонить комментарии к профилю.",
+    "zh-Hans": "个人资料所有者可以保留或拒绝评论。"
+  },
+  "You can unpublish your profile later from Settings.": {
+    "fr": "Vous pouvez dépublier votre profil plus tard depuis les paramètres.",
+    "es": "Puedes retirar tu perfil más tarde desde Ajustes.",
+    "ru": "Позже профиль можно снять с публикации в настройках.",
+    "zh-Hans": "你之后可以在设置中取消发布个人资料。"
+  },
+  "The Advanced editor remembers whether you left its sidebar open or closed.": {
+    "fr": "L'éditeur Avancé se souvient si vous avez laissé sa barre latérale ouverte ou fermée.",
+    "es": "El editor Avanzado recuerda si dejaste abierta o cerrada su barra lateral.",
+    "ru": "Расширенный редактор запоминает, оставили ли вы боковую панель открытой или закрытой.",
+    "zh-Hans": "高级编辑器会记住你上次把侧栏保持为展开还是收起。"
+  },
+  "Use Undo if you move or resize something by accident.": {
+    "fr": "Utilisez Annuler si vous déplacez ou redimensionnez quelque chose par accident.",
+    "es": "Usa Deshacer si mueves o cambias el tamaño de algo por accidente.",
+    "ru": "Используйте «Отменить», если случайно переместили или изменили размер элемента.",
+    "zh-Hans": "如果不小心移动或调整了某个元素，请使用撤销。"
+  },
+  "Profile pages are ordered — Previous and Next follow the order shown in Pages & Layers.": {
+    "fr": "Les pages du profil sont ordonnées — Précédent et Suivant suivent l'ordre affiché dans Pages et calques.",
+    "es": "Las páginas del perfil están ordenadas: Anterior y Siguiente siguen el orden de Páginas y capas.",
+    "ru": "Страницы профиля упорядочены — кнопки «Назад» и «Далее» следуют порядку в «Страницы и слои».",
+    "zh-Hans": "个人资料页面有顺序——上一页和下一页会按照“页面与图层”中的顺序导航。"
+  },
+  "Not everything has to be serious. Make your profile weird.": {
+    "fr": "Tout n'a pas besoin d'être sérieux. Rendez votre profil bizarre.",
+    "es": "No todo tiene que ser serio. Haz que tu perfil sea raro.",
+    "ru": "Не всё должно быть серьёзным. Сделайте свой профиль странным.",
+    "zh-Hans": "不是所有东西都得严肃。把你的个人资料做得怪一点吧。"
+  },
+  "Old-school profile customization is encouraged.": {
+    "fr": "La personnalisation de profil à l'ancienne est encouragée.",
+    "es": "Se recomienda la personalización de perfiles a la vieja escuela.",
+    "ru": "Старая добрая кастомизация профиля приветствуется.",
+    "zh-Hans": "欢迎使用老派的个人资料自定义风格。"
+  },
+  "Your profile does not have to look like everyone else's.": {
+    "fr": "Votre profil n'a pas besoin de ressembler à celui des autres.",
+    "es": "Tu perfil no tiene que parecerse al de los demás.",
+    "ru": "Ваш профиль не обязан выглядеть как у всех остальных.",
+    "zh-Hans": "你的个人资料不需要和别人的长得一样。"
+  },
+  "Try making more than one profile page.": {
+    "fr": "Essayez de créer plusieurs pages de profil.",
+    "es": "Prueba a crear más de una página de perfil.",
+    "ru": "Попробуйте сделать больше одной страницы профиля.",
+    "zh-Hans": "试试创建不止一个个人资料页面。"
+  },
+  "A quiet network is still a network — discovery improves as more peers come online.": {
+    "fr": "Un réseau calme reste un réseau — la découverte s'améliore à mesure que davantage de pairs se connectent.",
+    "es": "Una red tranquila sigue siendo una red: el descubrimiento mejora a medida que se conectan más pares.",
+    "ru": "Тихая сеть всё равно остаётся сетью — обнаружение улучшается, когда подключается больше узлов.",
+    "zh-Hans": "安静的网络仍然是网络——随着更多节点上线，发现效果会变得更好。"
+  },
+  "Yes, you can make your profile ugly on purpose.": {
+    "fr": "Oui, vous pouvez rendre votre profil moche exprès.",
+    "es": "Sí, puedes hacer que tu perfil sea feo a propósito.",
+    "ru": "Да, вы можете специально сделать свой профиль некрасивым.",
+    "zh-Hans": "是的，你完全可以故意把个人资料做得很丑。"
+  },
+  "Please do not teach the widgets to become sentient.": {
+    "fr": "Merci de ne pas apprendre aux widgets à devenir conscients.",
+    "es": "Por favor, no enseñes a los widgets a volverse conscientes.",
+    "ru": "Пожалуйста, не учите виджеты обретать самосознание.",
+    "zh-Hans": "请不要教小组件产生自我意识。"
+  },
+  "Moderation branches: because apparently one argument wasn't enough.": {
+    "fr": "Branches de modération : parce qu'apparemment une seule dispute ne suffisait pas.",
+    "es": "Ramas de moderación: porque al parecer una sola discusión no era suficiente.",
+    "ru": "Ветки модерации: потому что одного спора, видимо, было недостаточно.",
+    "zh-Hans": "管理分支：因为显然一次争论还不够。"
+  },
+  "VeilKnit is starting inside Weave. This status is reported directly by the networking core while it restores your DHTs, prepares the mailbox, and connects to Veilid.": {
+    "fr": "VeilKnit démarre dans Weave. Cet état provient directement du cœur réseau pendant qu’il restaure vos DHT, prépare la boîte aux lettres et se connecte à Veilid.",
+    "es": "VeilKnit se está iniciando dentro de Weave. Este estado viene directamente del núcleo de red mientras restaura tus DHT, prepara el buzón y se conecta a Veilid.",
+    "ru": "VeilKnit запускается внутри Weave. Этот статус поступает прямо из сетевого ядра, пока оно восстанавливает DHT, подготавливает почтовый ящик и подключается к Veilid.",
+    "zh-Hans": "VeilKnit 正在 Weave 内启动。此状态由网络核心直接报告，它会恢复 DHT、准备邮箱并连接到 Veilid。"
+  },
+  "Connecting to VeilKnit. A cold start can take a little while as the node restores state and finds peers.": {
+    "fr": "Connexion à VeilKnit. Un démarrage à froid peut prendre un peu de temps pendant que le nœud restaure son état et trouve des pairs.",
+    "es": "Conectando con VeilKnit. Un arranque en frío puede tardar un poco mientras el nodo restaura su estado y encuentra pares.",
+    "ru": "Подключение к VeilKnit. Холодный запуск может занять некоторое время, пока узел восстанавливает состояние и находит пиры.",
+    "zh-Hans": "正在连接 VeilKnit。冷启动时，节点恢复状态并寻找对等节点可能需要一些时间。"
+  },
+  "VeilKnit startup needs attention": {
+    "fr": "Le démarrage de VeilKnit nécessite votre attention",
+    "es": "El inicio de VeilKnit necesita atención",
+    "ru": "Запуск VeilKnit требует внимания",
+    "zh-Hans": "VeilKnit 启动需要处理"
+  },
+  "Can't reach VeilKnit": {
+    "fr": "Impossible de joindre VeilKnit",
+    "es": "No se puede conectar con VeilKnit",
+    "ru": "Не удаётся связаться с VeilKnit",
+    "zh-Hans": "无法连接 VeilKnit"
+  },
+  "Try again": {
+    "fr": "Réessayer",
+    "es": "Intentar de nuevo",
+    "ru": "Повторить",
+    "zh-Hans": "重试"
+  },
+  "Couldn't publish": {
+    "fr": "Publication impossible",
+    "es": "No se pudo publicar",
+    "ru": "Не удалось опубликовать",
+    "zh-Hans": "无法发布"
+  },
+  "Dismiss": {
+    "fr": "Fermer",
+    "es": "Descartar",
+    "ru": "Закрыть",
+    "zh-Hans": "关闭"
+  },
+  "Refresh": {
+    "fr": "Actualiser",
+    "es": "Actualizar",
+    "ru": "Обновить",
+    "zh-Hans": "刷新"
+  },
+  "You aren't following anyone yet.": {
+    "fr": "Vous ne suivez encore personne.",
+    "es": "Aún no sigues a nadie.",
+    "ru": "Вы пока ни на кого не подписаны.",
+    "zh-Hans": "你还没有关注任何人。"
+  },
+  "Nobody found yet.": {
+    "fr": "Personne trouvé pour le moment.",
+    "es": "Aún no se encontró a nadie.",
+    "ru": "Пока никого не найдено.",
+    "zh-Hans": "还没有找到任何人。"
+  },
+  "Follow people from their page and they'll show up here.": {
+    "fr": "Suivez des personnes depuis leur page et elles apparaîtront ici.",
+    "es": "Sigue a personas desde su página y aparecerán aquí.",
+    "ru": "Подписывайтесь на людей с их страницы, и они появятся здесь.",
+    "zh-Hans": "从他们的页面关注后，他们会显示在这里。"
+  },
+  "The network walk is still running. This can take a couple of minutes on a cold start.": {
+    "fr": "Le parcours du réseau est toujours en cours. Lors d’un démarrage à froid, cela peut prendre quelques minutes.",
+    "es": "El recorrido de red sigue en curso. En un arranque en frío puede tardar un par de minutos.",
+    "ru": "Обход сети ещё выполняется. При холодном запуске это может занять пару минут.",
+    "zh-Hans": "网络遍历仍在进行。冷启动时可能需要几分钟。"
+  },
+  "More like this": {
+    "fr": "Plus comme ceci",
+    "es": "Más como esto",
+    "ru": "Больше похожего",
+    "zh-Hans": "更多类似内容"
+  },
+  "Less like this": {
+    "fr": "Moins comme ceci",
+    "es": "Menos como esto",
+    "ru": "Меньше похожего",
+    "zh-Hans": "减少类似内容"
+  },
+  "+ Saved": {
+    "fr": "+ Enregistrées",
+    "es": "+ Guardadas",
+    "ru": "+ Сохранённые",
+    "zh-Hans": "+ 已保存"
+  },
+  "This page is empty. Add a heading, some text, or a picture.": {
+    "fr": "Cette page est vide. Ajoutez un titre, du texte ou une image.",
+    "es": "Esta página está vacía. Añade un encabezado, texto o una imagen.",
+    "ru": "Эта страница пуста. Добавьте заголовок, текст или изображение.",
+    "zh-Hans": "此页面为空。添加标题、文本或图片。"
+  },
+  "Couldn't read a valid image from that DHT location.": {
+    "fr": "Impossible de lire une image valide à cet emplacement DHT.",
+    "es": "No se pudo leer una imagen válida desde esa ubicación DHT.",
+    "ru": "Не удалось прочитать допустимое изображение по этому DHT-адресу.",
+    "zh-Hans": "无法从该 DHT 地址读取有效图片。"
+  },
+  "Weave": {
+    "fr": "Weave",
+    "es": "Weave",
+    "ru": "Weave",
+    "zh-Hans": "Weave"
+  },
+  "Couldn't save that profile": {
+    "fr": "Impossible d’enregistrer ce profil",
+    "es": "No se pudo guardar ese perfil",
+    "ru": "Не удалось сохранить профиль",
+    "zh-Hans": "无法保存该个人资料"
+  },
+  "Images": {
+    "fr": "Images",
+    "es": "Imágenes",
+    "ru": "Изображения",
+    "zh-Hans": "图片"
+  },
+  "Allow widgets to run": {
+    "fr": "Autoriser l’exécution des widgets",
+    "es": "Permitir que se ejecuten los widgets",
+    "ru": "Разрешить запуск виджетов",
+    "zh-Hans": "允许小组件运行"
+  },
+  "Widgets never run on their own — you always tap to start one. Turn this off and they stay as static pictures.": {
+    "fr": "Les widgets ne s’exécutent jamais seuls — vous devez toujours appuyer pour les démarrer. Désactivez cette option pour qu’ils restent des images statiques.",
+    "es": "Los widgets nunca se ejecutan solos: siempre debes tocarlos para iniciarlos. Desactiva esta opción y permanecerán como imágenes estáticas.",
+    "ru": "Виджеты никогда не запускаются сами — вы всегда запускаете их нажатием. Отключите это, и они останутся статичными изображениями.",
+    "zh-Hans": "小组件不会自行运行——你必须点击后才会启动。关闭此选项后，它们只会保持为静态图片。"
+  },
+  "This identity": {
+    "fr": "Cette identité",
+    "es": "Esta identidad",
+    "ru": "Эта личность",
+    "zh-Hans": "此身份"
+  },
+  "Unnamed": {
+    "fr": "Sans nom",
+    "es": "Sin nombre",
+    "ru": "Без имени",
+    "zh-Hans": "未命名"
+  },
+  "Peers": {
+    "fr": "Pairs",
+    "es": "Pares",
+    "ru": "Пиры",
+    "zh-Hans": "对等方"
+  },
+  "verified": {
+    "fr": "vérifiés",
+    "es": "verificados",
+    "ru": "проверено",
+    "zh-Hans": "已验证"
+  },
+  "Reusing images or widgets across identities links them: identical bytes have an identical hash no matter who publishes them.": {
+    "fr": "Réutiliser les mêmes images ou widgets entre plusieurs identités crée un lien entre elles : des octets identiques ont le même hachage, quel que soit le compte qui les publie.",
+    "es": "Reutilizar imágenes o widgets entre identidades las vincula: los mismos bytes producen el mismo hash sin importar quién los publique.",
+    "ru": "Повторное использование изображений или виджетов между личностями связывает их: одинаковые байты имеют одинаковый хеш независимо от того, кто их публикует.",
+    "zh-Hans": "在不同身份之间重复使用图片或小组件会把它们关联起来：相同字节始终具有相同哈希值，与发布者无关。"
+  },
+  "Setup account backup": {
+    "fr": "Configurer la sauvegarde du compte",
+    "es": "Configurar copia de seguridad de la cuenta",
+    "ru": "Настроить резервную копию аккаунта",
+    "zh-Hans": "设置账户备份"
+  },
+  "Create an encrypted VeilKnit identity backup and optional network recovery copy.": {
+    "fr": "Créez une sauvegarde chiffrée de votre identité VeilKnit et, si vous le souhaitez, une copie de récupération réseau.",
+    "es": "Crea una copia cifrada de tu identidad de VeilKnit y, opcionalmente, una copia de recuperación en red.",
+    "ru": "Создайте зашифрованную резервную копию личности VeilKnit и, при желании, сетевую копию для восстановления.",
+    "zh-Hans": "创建加密的 VeilKnit 身份备份，并可选择创建网络恢复副本。"
+  },
+  "The blurb people see beside your name in search comes from the text at the top of your home page, so it always matches what is actually there. What you search for and what you avoid stays on this device and is never published.": {
+    "fr": "Le résumé affiché à côté de votre nom dans la recherche vient du texte en haut de votre page d’accueil, afin qu’il corresponde toujours au contenu réel. Vos recherches et éléments à éviter restent sur cet appareil et ne sont jamais publiés.",
+    "es": "El resumen que aparece junto a tu nombre en la búsqueda proviene del texto de la parte superior de tu página principal, así que siempre coincide con lo que realmente hay allí. Lo que buscas y lo que evitas permanece en este dispositivo y nunca se publica.",
+    "ru": "Краткое описание рядом с вашим именем в поиске берётся из текста вверху главной страницы, поэтому оно всегда соответствует реальному содержимому. То, что вы ищете и чего избегаете, остаётся на этом устройстве и не публикуется.",
+    "zh-Hans": "搜索结果中姓名旁的简介来自主页顶部的文字，因此会始终与实际内容一致。你的搜索内容和避开内容只保存在此设备上，不会发布。"
+  },
+  "Interests, comma separated": {
+    "fr": "Centres d’intérêt, séparés par des virgules",
+    "es": "Intereses, separados por comas",
+    "ru": "Интересы через запятую",
+    "zh-Hans": "兴趣，用逗号分隔"
+  },
+  "Comments on your profile": {
+    "fr": "Commentaires sur votre profil",
+    "es": "Comentarios en tu perfil",
+    "ru": "Комментарии к вашему профилю",
+    "zh-Hans": "你个人资料上的评论"
+  },
+  "Published with your profile, so other people's apps know the rule before they write anything.": {
+    "fr": "Publié avec votre profil afin que les applications des autres connaissent la règle avant d’écrire quoi que ce soit.",
+    "es": "Se publica con tu perfil para que las aplicaciones de otras personas conozcan la regla antes de escribir nada.",
+    "ru": "Публикуется вместе с профилем, чтобы приложения других людей знали правило до отправки комментария.",
+    "zh-Hans": "此规则会随个人资料一起发布，因此其他人的应用会在写评论前知道规则。"
+  },
+  "Anyone can comment": {
+    "fr": "Tout le monde peut commenter",
+    "es": "Cualquiera puede comentar",
+    "ru": "Комментировать могут все",
+    "zh-Hans": "任何人都可以评论"
+  },
+  "I approve comments first": {
+    "fr": "J’approuve les commentaires d’abord",
+    "es": "Primero apruebo los comentarios",
+    "ru": "Сначала я одобряю комментарии",
+    "zh-Hans": "评论需先经我批准"
+  },
+  "No comments": {
+    "fr": "Aucun commentaire",
+    "es": "Sin comentarios",
+    "ru": "Комментарии запрещены",
+    "zh-Hans": "禁止评论"
+  },
+  "Comments appear as soon as they are posted.": {
+    "fr": "Les commentaires apparaissent dès leur publication.",
+    "es": "Los comentarios aparecen en cuanto se publican.",
+    "ru": "Комментарии появляются сразу после публикации.",
+    "zh-Hans": "评论发布后会立即显示。"
+  },
+  "Comments wait in Activity until you keep them.": {
+    "fr": "Les commentaires restent dans Activité jusqu’à ce que vous les conserviez.",
+    "es": "Los comentarios esperan en Actividad hasta que decidas conservarlos.",
+    "ru": "Комментарии ждут в разделе «Активность», пока вы их не сохраните.",
+    "zh-Hans": "评论会在“动态”中等待，直到你选择保留。"
+  },
+  "Nobody can leave a comment on your pages.": {
+    "fr": "Personne ne peut laisser de commentaire sur vos pages.",
+    "es": "Nadie puede dejar comentarios en tus páginas.",
+    "ru": "Никто не сможет оставлять комментарии на ваших страницах.",
+    "zh-Hans": "任何人都无法在你的页面上发表评论。"
+  },
+  "Changes take effect the next time you publish.": {
+    "fr": "Les changements prennent effet à la prochaine publication.",
+    "es": "Los cambios se aplican la próxima vez que publiques.",
+    "ru": "Изменения вступят в силу при следующей публикации.",
+    "zh-Hans": "更改会在你下次发布时生效。"
+  },
+  "Removes the current public profile record and Weave-owned profile/media blobs from the network where the daemon can still address them. Your local draft stays on this device.": {
+    "fr": "Retire l’enregistrement public actuel du profil et les blobs de profil/médias appartenant à Weave là où le démon peut encore les adresser. Votre brouillon local reste sur cet appareil.",
+    "es": "Retira el registro público actual del perfil y los blobs de perfil/multimedia de Weave allí donde el daemon aún pueda direccionarlos. Tu borrador local permanece en este dispositivo.",
+    "ru": "Удаляет текущую публичную запись профиля и принадлежащие Weave блобы профиля/медиа там, где демон всё ещё может к ним обратиться. Локальный черновик остаётся на устройстве.",
+    "zh-Hans": "移除当前公开的个人资料记录，以及守护程序仍可定位的 Weave 个人资料/媒体数据块。本地草稿会保留在此设备上。"
+  },
+  "This profile is not currently published.": {
+    "fr": "Ce profil n’est pas actuellement publié.",
+    "es": "Este perfil no está publicado actualmente.",
+    "ru": "Сейчас этот профиль не опубликован.",
+    "zh-Hans": "此个人资料目前未发布。"
+  },
+  "Copies this app's own log, plus what it currently knows about the network, to the clipboard. It contains your profile keys, which are public, and nothing else identifying.": {
+    "fr": "Copie dans le presse-papiers le journal de l’application et ce qu’elle sait actuellement du réseau. Il contient vos clés de profil, qui sont publiques, et aucune autre donnée d’identification.",
+    "es": "Copia al portapapeles el registro de la aplicación y lo que sabe actualmente sobre la red. Contiene tus claves de perfil, que son públicas, y ningún otro dato identificativo.",
+    "ru": "Копирует в буфер журнал приложения и текущие сведения о сети. Он содержит публичные ключи профиля и не содержит других идентифицирующих данных.",
+    "zh-Hans": "将此应用自己的日志以及当前掌握的网络信息复制到剪贴板。其中包含公开的个人资料密钥，不包含其他身份信息。"
+  },
+  "Copy log": {
+    "fr": "Copier le journal",
+    "es": "Copiar registro",
+    "ru": "Копировать журнал",
+    "zh-Hans": "复制日志"
+  },
+  "Copied": {
+    "fr": "Copié",
+    "es": "Copiado",
+    "ru": "Скопировано",
+    "zh-Hans": "已复制"
+  },
+  "The daemon keeps its own, more detailed log. If something is wrong with the network rather than the app, that one is the useful one.": {
+    "fr": "Le démon conserve son propre journal, plus détaillé. Si le problème vient du réseau plutôt que de l’application, c’est celui-ci qui est utile.",
+    "es": "El daemon mantiene su propio registro más detallado. Si el problema está en la red y no en la aplicación, ese es el registro útil.",
+    "ru": "У демона есть собственный, более подробный журнал. Если проблема в сети, а не в приложении, полезен именно он.",
+    "zh-Hans": "守护程序会保留更详细的独立日志。如果问题出在网络而不是应用本身，应查看该日志。"
+  },
+  "This withdraws your live profile and deletes Weave's known published profile/image blobs. Your local editable profile is kept.": {
+    "fr": "Cela retire votre profil en ligne et supprime les blobs de profil/image publiés connus de Weave. Votre profil local modifiable est conservé.",
+    "es": "Esto retira tu perfil publicado y elimina los blobs de perfil/imagen publicados que Weave conoce. Se conserva tu perfil local editable.",
+    "ru": "Это снимает опубликованный профиль и удаляет известные Weave опубликованные блобы профиля/изображений. Локальный редактируемый профиль сохраняется.",
+    "zh-Hans": "这会撤下你已发布的个人资料，并删除 Weave 已知的公开个人资料/图片数据块。本地可编辑资料会保留。"
+  },
+  "Comments on your pages waiting on you. Nothing here is private — keeping one publishes it where the comment was left, and anything you ignore expires on its own.": {
+    "fr": "Commentaires sur vos pages en attente de votre décision. Rien ici n’est privé — conserver un commentaire le publie là où il a été laissé, et ceux que vous ignorez expirent d’eux-mêmes.",
+    "es": "Comentarios en tus páginas que esperan tu decisión. Nada aquí es privado: conservar uno lo publica donde se dejó, y lo que ignores caduca por sí solo.",
+    "ru": "Комментарии на ваших страницах ждут решения. Здесь нет ничего приватного: сохранённый комментарий публикуется там, где его оставили, а проигнорированные со временем исчезают.",
+    "zh-Hans": "这里是等待你处理的页面评论。这里没有私密内容——保留评论会将其发布到原页面，忽略的评论会自行过期。"
+  },
+  "Nothing waiting.": {
+    "fr": "Rien en attente.",
+    "es": "Nada pendiente.",
+    "ru": "Ничего не ожидает.",
+    "zh-Hans": "没有待处理内容。"
+  },
+  "Comments waiting on a decision show up here. Keep one to make it part of your page, or drop it.": {
+    "fr": "Les commentaires en attente d’une décision apparaissent ici. Conservez-en un pour l’ajouter à votre page, ou supprimez-le.",
+    "es": "Los comentarios pendientes de una decisión aparecen aquí. Conserva uno para hacerlo parte de tu página o descártalo.",
+    "ru": "Здесь появляются комментарии, ожидающие решения. Сохраните комментарий, чтобы он стал частью страницы, или отклоните его.",
+    "zh-Hans": "等待处理的评论会显示在这里。保留后它会成为页面的一部分，也可以丢弃。"
+  },
+  "Drop": {
+    "fr": "Rejeter",
+    "es": "Descartar",
+    "ru": "Отклонить",
+    "zh-Hans": "丢弃"
+  },
+  "Keep": {
+    "fr": "Conserver",
+    "es": "Conservar",
+    "ru": "Сохранить",
+    "zh-Hans": "保留"
+  },
+  "Fetching this profile…": {
+    "fr": "Chargement de ce profil…",
+    "es": "Cargando este perfil…",
+    "ru": "Загрузка профиля…",
+    "zh-Hans": "正在获取此个人资料…"
+  },
+  "Couldn't open this profile": {
+    "fr": "Impossible d’ouvrir ce profil",
+    "es": "No se pudo abrir este perfil",
+    "ru": "Не удалось открыть профиль",
+    "zh-Hans": "无法打开此个人资料"
+  },
+  "Back": {
+    "fr": "Retour",
+    "es": "Atrás",
+    "ru": "Назад",
+    "zh-Hans": "返回"
+  },
+  "Reset zoom": {
+    "fr": "Réinitialiser le zoom",
+    "es": "Restablecer zoom",
+    "ru": "Сбросить масштаб",
+    "zh-Hans": "重置缩放"
+  },
+  "Description": {
+    "fr": "Description",
+    "es": "Descripción",
+    "ru": "Описание",
+    "zh-Hans": "描述"
+  },
+  "Pages": {
+    "fr": "Pages",
+    "es": "Páginas",
+    "ru": "Страницы",
+    "zh-Hans": "页面"
+  },
+  "Unhide": {
+    "fr": "Afficher",
+    "es": "Mostrar",
+    "ru": "Показать",
+    "zh-Hans": "取消隐藏"
+  },
+  "Post": {
+    "fr": "Publier",
+    "es": "Publicar",
+    "ru": "Опубликовать",
+    "zh-Hans": "发布"
+  },
+  "This page uses the advanced editor": {
+    "fr": "Cette page utilise l’éditeur avancé",
+    "es": "Esta página usa el editor avanzado",
+    "ru": "Эта страница использует расширенный редактор",
+    "zh-Hans": "此页面使用高级编辑器"
+  },
+  "It has stamps, widgets or layered boxes. Saving here would replace them with a simple stack.": {
+    "fr": "Elle contient des tampons, widgets ou boîtes superposées. L’enregistrer ici les remplacerait par une pile simple.",
+    "es": "Tiene sellos, widgets o cajas en capas. Guardarla aquí los reemplazaría por una pila simple.",
+    "ru": "На ней есть штампы, виджеты или многослойные блоки. Сохранение здесь заменит их простым вертикальным списком.",
+    "zh-Hans": "其中包含图章、小组件或分层框。在这里保存会将它们替换为简单的纵向堆叠。"
+  },
+  "Open advanced": {
+    "fr": "Ouvrir l’éditeur avancé",
+    "es": "Abrir avanzado",
+    "ru": "Открыть расширенный редактор",
+    "zh-Hans": "打开高级编辑器"
+  },
+  "Simplify anyway": {
+    "fr": "Simplifier quand même",
+    "es": "Simplificar de todos modos",
+    "ru": "Всё равно упростить",
+    "zh-Hans": "仍然简化"
+  },
+  "Saved images": {
+    "fr": "Images enregistrées",
+    "es": "Imágenes guardadas",
+    "ru": "Сохранённые изображения",
+    "zh-Hans": "已保存图片"
+  },
+  "Saved image": {
+    "fr": "Image enregistrée",
+    "es": "Imagen guardada",
+    "ru": "Сохранённое изображение",
+    "zh-Hans": "已保存图片"
+  },
+  "Discard changes?": {
+    "fr": "Annuler les modifications ?",
+    "es": "¿Descartar cambios?",
+    "ru": "Отменить изменения?",
+    "zh-Hans": "放弃更改？"
+  },
+  "Everything you changed since opening the editor goes back to how it was. Anything already published stays published.": {
+    "fr": "Tout ce que vous avez modifié depuis l’ouverture de l’éditeur revient à son état précédent. Tout ce qui est déjà publié reste publié.",
+    "es": "Todo lo que cambiaste desde que abriste el editor volverá a su estado anterior. Lo que ya esté publicado seguirá publicado.",
+    "ru": "Все изменения с момента открытия редактора будут отменены. Всё уже опубликованное останется опубликованным.",
+    "zh-Hans": "自打开编辑器以来的所有更改都会恢复。已经发布的内容仍会保持发布状态。"
+  },
+  "Keep editing": {
+    "fr": "Continuer à modifier",
+    "es": "Seguir editando",
+    "ru": "Продолжить редактирование",
+    "zh-Hans": "继续编辑"
+  },
+  "Heading": {
+    "fr": "Titre",
+    "es": "Encabezado",
+    "ru": "Заголовок",
+    "zh-Hans": "标题"
+  },
+  "Text": {
+    "fr": "Texte",
+    "es": "Texto",
+    "ru": "Текст",
+    "zh-Hans": "文本"
+  },
+  "Image": {
+    "fr": "Image",
+    "es": "Imagen",
+    "ru": "Изображение",
+    "zh-Hans": "图片"
+  },
+  "Image data missing.": {
+    "fr": "Données d’image manquantes.",
+    "es": "Faltan los datos de la imagen.",
+    "ru": "Данные изображения отсутствуют.",
+    "zh-Hans": "图片数据缺失。"
+  },
+  "Caption (optional)": {
+    "fr": "Légende (facultatif)",
+    "es": "Pie de foto (opcional)",
+    "ru": "Подпись (необязательно)",
+    "zh-Hans": "说明文字（可选）"
+  },
+  "Rename": {
+    "fr": "Renommer",
+    "es": "Renombrar",
+    "ru": "Переименовать",
+    "zh-Hans": "重命名"
+  },
+  "Delete": {
+    "fr": "Supprimer",
+    "es": "Eliminar",
+    "ru": "Удалить",
+    "zh-Hans": "删除"
+  },
+  "Rename page": {
+    "fr": "Renommer la page",
+    "es": "Renombrar página",
+    "ru": "Переименовать страницу",
+    "zh-Hans": "重命名页面"
+  },
+  "Page background": {
+    "fr": "Arrière-plan de la page",
+    "es": "Fondo de la página",
+    "ru": "Фон страницы",
+    "zh-Hans": "页面背景"
+  },
+  "One colour": {
+    "fr": "Une couleur",
+    "es": "Un color",
+    "ru": "Один цвет",
+    "zh-Hans": "单色"
+  },
+  "Split": {
+    "fr": "Séparation",
+    "es": "División",
+    "ru": "Разделение",
+    "zh-Hans": "分割"
+  },
+  "Fade": {
+    "fr": "Dégradé",
+    "es": "Degradado",
+    "ru": "Градиент",
+    "zh-Hans": "渐变"
+  },
+  "Colour": {
+    "fr": "Couleur",
+    "es": "Color",
+    "ru": "Цвет",
+    "zh-Hans": "颜色"
+  },
+  "First colour": {
+    "fr": "Première couleur",
+    "es": "Primer color",
+    "ru": "Первый цвет",
+    "zh-Hans": "第一种颜色"
+  },
+  "Second colour": {
+    "fr": "Deuxième couleur",
+    "es": "Segundo color",
+    "ru": "Второй цвет",
+    "zh-Hans": "第二种颜色"
+  },
+  "Direction": {
+    "fr": "Direction",
+    "es": "Dirección",
+    "ru": "Направление",
+    "zh-Hans": "方向"
+  },
+  "Horizontal": {
+    "fr": "Horizontal",
+    "es": "Horizontal",
+    "ru": "Горизонтально",
+    "zh-Hans": "水平"
+  },
+  "Vertical": {
+    "fr": "Vertical",
+    "es": "Vertical",
+    "ru": "Вертикально",
+    "zh-Hans": "垂直"
+  },
+  "Diagonal down": {
+    "fr": "Diagonale descendante",
+    "es": "Diagonal descendente",
+    "ru": "Диагональ вниз",
+    "zh-Hans": "向下对角线"
+  },
+  "Diagonal up": {
+    "fr": "Diagonale montante",
+    "es": "Diagonal ascendente",
+    "ru": "Диагональ вверх",
+    "zh-Hans": "向上对角线"
+  },
+  "Couldn't save that image": {
+    "fr": "Impossible d’enregistrer cette image",
+    "es": "No se pudo guardar esa imagen",
+    "ru": "Не удалось сохранить изображение",
+    "zh-Hans": "无法保存该图片"
+  },
+  "Saved to your editor": {
+    "fr": "Enregistré dans votre éditeur",
+    "es": "Guardado en tu editor",
+    "ru": "Сохранено в редактор",
+    "zh-Hans": "已保存到编辑器"
+  },
+  "Saved a copy you can open in the editor": {
+    "fr": "Une copie a été enregistrée et peut être ouverte dans l’éditeur",
+    "es": "Se guardó una copia que puedes abrir en el editor",
+    "ru": "Копия сохранена и доступна в редакторе",
+    "zh-Hans": "已保存可在编辑器中打开的副本"
+  },
+  "Save image": {
+    "fr": "Enregistrer l’image",
+    "es": "Guardar imagen",
+    "ru": "Сохранить изображение",
+    "zh-Hans": "保存图片"
+  },
+  "Copy image location": {
+    "fr": "Copier l’emplacement de l’image",
+    "es": "Copiar ubicación de imagen",
+    "ru": "Копировать адрес изображения",
+    "zh-Hans": "复制图片位置"
+  },
+  "Save to editor": {
+    "fr": "Enregistrer dans l’éditeur",
+    "es": "Guardar en el editor",
+    "ru": "Сохранить в редактор",
+    "zh-Hans": "保存到编辑器"
+  },
+  "Save a copy of this profile": {
+    "fr": "Enregistrer une copie de ce profil",
+    "es": "Guardar una copia de este perfil",
+    "ru": "Сохранить копию профиля",
+    "zh-Hans": "保存此个人资料的副本"
+  },
+  "Copy profile key": {
+    "fr": "Copier la clé du profil",
+    "es": "Copiar clave del perfil",
+    "ru": "Копировать ключ профиля",
+    "zh-Hans": "复制个人资料密钥"
+  },
+  "Fetched": {
+    "fr": "Récupéré il y a",
+    "es": "Obtenido hace",
+    "ru": "Получено",
+    "zh-Hans": "获取于"
+  },
+  "seconds ago": {
+    "fr": "secondes",
+    "es": "segundos",
+    "ru": "сек. назад",
+    "zh-Hans": "秒前"
+  },
+  "page": {
+    "fr": "page",
+    "es": "página",
+    "ru": "страница",
+    "zh-Hans": "页"
+  },
+  "pages": {
+    "fr": "pages",
+    "es": "páginas",
+    "ru": "страниц",
+    "zh-Hans": "页"
+  },
+  "Follow": {
+    "fr": "Suivre",
+    "es": "Seguir",
+    "ru": "Подписаться",
+    "zh-Hans": "关注"
+  },
+  "Comments": {
+    "fr": "Commentaires",
+    "es": "Comentarios",
+    "ru": "Комментарии",
+    "zh-Hans": "评论"
+  },
+  "This profile has comments turned off.": {
+    "fr": "Les commentaires sont désactivés sur ce profil.",
+    "es": "Este perfil tiene los comentarios desactivados.",
+    "ru": "Комментарии в этом профиле отключены.",
+    "zh-Hans": "此个人资料已关闭评论。"
+  },
+  "Comments are public and attach to this page. The owner reviews them before they appear for everyone.": {
+    "fr": "Les commentaires sont publics et attachés à cette page. Le propriétaire les examine avant qu’ils ne soient visibles par tous.",
+    "es": "Los comentarios son públicos y se adjuntan a esta página. El propietario los revisa antes de que aparezcan para todos.",
+    "ru": "Комментарии публичны и привязаны к этой странице. Владелец проверяет их до показа всем.",
+    "zh-Hans": "评论是公开的并附加到此页面。页面所有者审核后才会向所有人显示。"
+  },
+  "Comments are public and attach to this page.": {
+    "fr": "Les commentaires sont publics et attachés à cette page.",
+    "es": "Los comentarios son públicos y se adjuntan a esta página.",
+    "ru": "Комментарии публичны и привязаны к этой странице.",
+    "zh-Hans": "评论是公开的并附加到此页面。"
+  },
+  "Nothing here yet.": {
+    "fr": "Rien ici pour le moment.",
+    "es": "Todavía no hay nada aquí.",
+    "ru": "Здесь пока ничего нет.",
+    "zh-Hans": "这里还没有内容。"
+  },
+  "Visible to everyone, but the owner hasn't kept it yet": {
+    "fr": "Visible par tous, mais le propriétaire ne l’a pas encore conservé",
+    "es": "Visible para todos, pero el propietario aún no lo ha conservado",
+    "ru": "Видно всем, но владелец ещё не сохранил комментарий",
+    "zh-Hans": "所有人都能看到，但所有者尚未保留"
+  },
+  "Waiting for this page's owner to release it": {
+    "fr": "En attente de la validation du propriétaire de cette page",
+    "es": "Esperando a que el propietario de esta página lo publique",
+    "ru": "Ожидает публикации владельцем страницы",
+    "zh-Hans": "等待页面所有者放行"
+  },
+  "Leave a comment": {
+    "fr": "Laisser un commentaire",
+    "es": "Dejar un comentario",
+    "ru": "Оставить комментарий",
+    "zh-Hans": "发表评论"
+  },
+  "Start a new thread": {
+    "fr": "Démarrer une nouvelle discussion",
+    "es": "Iniciar un nuevo hilo",
+    "ru": "Начать новую ветку",
+    "zh-Hans": "开始新讨论"
+  },
+  "reply": {
+    "fr": "réponse",
+    "es": "respuesta",
+    "ru": "ответ",
+    "zh-Hans": "条回复"
+  },
+  "replies": {
+    "fr": "réponses",
+    "es": "respuestas",
+    "ru": "ответов",
+    "zh-Hans": "条回复"
+  },
+  "Show more": {
+    "fr": "Afficher plus",
+    "es": "Mostrar más",
+    "ru": "Показать больше",
+    "zh-Hans": "显示更多"
+  },
+  "Show less": {
+    "fr": "Afficher moins",
+    "es": "Mostrar menos",
+    "ru": "Показать меньше",
+    "zh-Hans": "收起"
+  },
+  "Reply": {
+    "fr": "Répondre",
+    "es": "Responder",
+    "ru": "Ответить",
+    "zh-Hans": "回复"
+  },
+  "Hide": {
+    "fr": "Masquer",
+    "es": "Ocultar",
+    "ru": "Скрыть",
+    "zh-Hans": "隐藏"
+  },
+  "Reply to": {
+    "fr": "Répondre à",
+    "es": "Responder a",
+    "ru": "Ответить пользователю",
+    "zh-Hans": "回复"
+  },
+  "Up and down": {
+    "fr": "De haut en bas",
+    "es": "De arriba abajo",
+    "ru": "Сверху вниз",
+    "zh-Hans": "上下"
+  },
+  "Left to right": {
+    "fr": "De gauche à droite",
+    "es": "De izquierda a derecha",
+    "ru": "Слева направо",
+    "zh-Hans": "从左到右"
+  },
+  "Diagonal /": {
+    "fr": "Diagonale /",
+    "es": "Diagonal /",
+    "ru": "Диагональ /",
+    "zh-Hans": "对角线 /"
+  },
+  "Comments received on your pages. Comments needing approval have Keep and Drop controls; published comments stay here as history.": {
+    "fr": "Commentaires reçus sur vos pages. Ceux qui nécessitent une approbation disposent des boutons Conserver et Rejeter ; les commentaires publiés restent ici dans l’historique.",
+    "es": "Comentarios recibidos en tus páginas. Los que necesitan aprobación tienen controles Conservar y Descartar; los comentarios publicados permanecen aquí como historial.",
+    "ru": "Комментарии, полученные на ваших страницах. Для требующих одобрения доступны кнопки «Сохранить» и «Отклонить»; опубликованные комментарии остаются здесь в истории.",
+    "zh-Hans": "你页面上收到的评论。需要审核的评论会显示“保留”和“丢弃”按钮；已发布的评论会作为历史记录保留在这里。"
+  },
+  "No comment activity yet.": {
+    "fr": "Aucune activité de commentaire pour le moment.",
+    "es": "Aún no hay actividad de comentarios.",
+    "ru": "Пока нет активности комментариев.",
+    "zh-Hans": "还没有评论动态。"
+  },
+  "Incoming comments will appear here, including ones that were automatically published.": {
+    "fr": "Les commentaires reçus apparaîtront ici, y compris ceux publiés automatiquement.",
+    "es": "Los comentarios recibidos aparecerán aquí, incluidos los que se publicaron automáticamente.",
+    "ru": "Входящие комментарии появятся здесь, включая опубликованные автоматически.",
+    "zh-Hans": "收到的评论会显示在这里，包括自动发布的评论。"
+  },
+  "Needs approval": {
+    "fr": "À approuver",
+    "es": "Necesita aprobación",
+    "ru": "Требует одобрения",
+    "zh-Hans": "需要审核"
+  },
+  "Awaiting confirmation": {
+    "fr": "En attente de confirmation",
+    "es": "Esperando confirmación",
+    "ru": "Ожидает подтверждения",
+    "zh-Hans": "等待确认"
+  },
+  "Dropped": {
+    "fr": "Rejeté",
+    "es": "Descartado",
+    "ru": "Отклонено",
+    "zh-Hans": "已丢弃"
+  },
+  "Failed": {
+    "fr": "Échec",
+    "es": "Falló",
+    "ru": "Ошибка",
+    "zh-Hans": "失败"
+  },
+  "Retry": {
+    "fr": "Réessayer",
+    "es": "Reintentar",
+    "ru": "Повторить",
+    "zh-Hans": "重试"
+  },
+  "Sending": {
+    "fr": "Envoi…",
+    "es": "Enviando…",
+    "ru": "Отправка…",
+    "zh-Hans": "正在发送…"
+  },
+  "Not sent": {
+    "fr": "Non envoyé",
+    "es": "No enviado",
+    "ru": "Не отправлено",
+    "zh-Hans": "未发送"
+  },
+  "Sent, awaiting confirmation": {
+    "fr": "Envoyé, en attente de confirmation",
+    "es": "Enviado, esperando confirmación",
+    "ru": "Отправлено, ожидается подтверждение",
+    "zh-Hans": "已发送，等待确认"
+  },
+  "Waiting for approval": {
+    "fr": "En attente d’approbation",
+    "es": "Esperando aprobación",
+    "ru": "Ожидает одобрения",
+    "zh-Hans": "等待审核"
+  },
+  "Comments attach to this page after the owner approves them.": {
+    "fr": "Les commentaires sont attachés à cette page après approbation par le propriétaire.",
+    "es": "Los comentarios se adjuntan a esta página después de que el propietario los apruebe.",
+    "ru": "Комментарии появляются на этой странице после одобрения владельцем.",
+    "zh-Hans": "评论会在页面所有者审核通过后显示在此页面。"
+  },
+  " · 🎵 Audio": {
+    "fr": " · 🎵 Audio",
+    "es": " · 🎵 Audio",
+    "ru": " · 🎵 Аудио",
+    "zh-Hans": " · 🎵 音频"
+  },
+  "+ Audio": {
+    "fr": "+ Audio",
+    "es": "+ Audio",
+    "ru": "+ Аудио",
+    "zh-Hans": "+ 音频"
+  },
+  "+ Create group": {
+    "fr": "+ Créer un groupe",
+    "es": "+ Crear grupo",
+    "ru": "+ Создать группу",
+    "zh-Hans": "+ 创建群组"
+  },
+  "A quick view of the conversations moving across your groups.": {
+    "fr": "Un aperçu rapide des conversations actives dans vos groupes.",
+    "es": "Una vista rápida de las conversaciones activas en tus grupos.",
+    "ru": "Краткий обзор обсуждений в ваших группах。",
+    "zh-Hans": "快速查看你各个群组中的活跃讨论。"
+  },
+  "A small embedded thumbnail helps distinguish groups without loading a full-size image.": {
+    "fr": "Une petite miniature intégrée permet de distinguer les groupes sans charger l’image en taille réelle.",
+    "es": "Una miniatura incrustada ayuda a distinguir los grupos sin cargar la imagen completa.",
+    "ru": "Небольшая встроенная миниатюра помогает различать группы без загрузки полноразмерного изображения.",
+    "zh-Hans": "内嵌的小缩略图可帮助区分群组，无需加载完整图片。"
+  },
+  "Add": {
+    "fr": "Ajouter",
+    "es": "Añadir",
+    "ru": "Добавить",
+    "zh-Hans": "添加"
+  },
+  "Add branch moderator": {
+    "fr": "Ajouter un modérateur de branche",
+    "es": "Añadir moderador de rama",
+    "ru": "Добавить модератора ветки",
+    "zh-Hans": "添加分支版主"
+  },
+  "Aggressive / hostile text": {
+    "fr": "Texte agressif / hostile",
+    "es": "Texto agresivo / hostil",
+    "ru": "Агрессивный / враждебный текст",
+    "zh-Hans": "攻击性 / 敌意文字"
+  },
+  "Approve / Keep": {
+    "fr": "Approuver / Conserver",
+    "es": "Aprobar / Conservar",
+    "ru": "Одобрить / Сохранить",
+    "zh-Hans": "批准 / 保留"
+  },
+  "Ask to join": {
+    "fr": "Demander à rejoindre",
+    "es": "Solicitar unirse",
+    "ru": "Запросить вступление",
+    "zh-Hans": "申请加入"
+  },
+  "Audio title": {
+    "fr": "Titre audio",
+    "es": "Título del audio",
+    "ru": "Название аудио",
+    "zh-Hans": "音频标题"
+  },
+  "Ban user": {
+    "fr": "Bannir l’utilisateur",
+    "es": "Bloquear usuario",
+    "ru": "Заблокировать пользователя",
+    "zh-Hans": "封禁用户"
+  },
+  "Ban user from this branch?": {
+    "fr": "Bannir l’utilisateur de cette branche ?",
+    "es": "¿Bloquear al usuario en esta rama?",
+    "ru": "Заблокировать пользователя в этой ветке?",
+    "zh-Hans": "从此分支封禁该用户？"
+  },
+  "Blur until tapped": {
+    "fr": "Flouter jusqu’à l’appui",
+    "es": "Desenfocar hasta tocar",
+    "ru": "Размывать до нажатия",
+    "zh-Hans": "点击前模糊"
+  },
+  "Blurred by your": {
+    "fr": "Flouté par votre",
+    "es": "Desenfocado por tu",
+    "ru": "Размыто вашим",
+    "zh-Hans": "已被你的"
+  },
+  "Checking your content filters…": {
+    "fr": "Vérification de vos filtres de contenu…",
+    "es": "Comprobando tus filtros de contenido…",
+    "ru": "Проверка фильтров содержимого…",
+    "zh-Hans": "正在检查内容过滤器…"
+  },
+  "Claim moderation of a public group by pasting its Weave group link. Claiming creates your own moderation branch; it does not fork the group.": {
+    "fr": "Réclamez la modération d’un groupe public en collant son lien Weave. Cela crée votre propre branche de modération sans dupliquer le groupe.",
+    "es": "Reclama la moderación de un grupo público pegando su enlace de Weave. Esto crea tu propia rama de moderación; no bifurca el grupo.",
+    "ru": "Возьмите модерацию публичной группы, вставив её ссылку Weave. Будет создана ваша собственная ветка модерации, без создания отдельной группы.",
+    "zh-Hans": "粘贴 Weave 群组链接即可认领公开群组的管理权。这会创建你自己的管理分支，而不会复制该群组。"
+  },
+  "Claim moderation of group": {
+    "fr": "Réclamer la modération du groupe",
+    "es": "Reclamar moderación del grupo",
+    "ru": "Взять модерацию группы",
+    "zh-Hans": "认领群组管理"
+  },
+  "Claim moderation of this group?": {
+    "fr": "Réclamer la modération de ce groupe ?",
+    "es": "¿Reclamar la moderación de este grupo?",
+    "ru": "Взять модерацию этой группы?",
+    "zh-Hans": "认领此群组的管理权？"
+  },
+  "Claiming…": {
+    "fr": "Réclamation…",
+    "es": "Reclamando…",
+    "ru": "Создание ветки…",
+    "zh-Hans": "正在认领…"
+  },
+  "Clear featured area": {
+    "fr": "Effacer la zone mise en avant",
+    "es": "Borrar área destacada",
+    "ru": "Очистить выделенную область",
+    "zh-Hans": "清除精选区域"
+  },
+  "Comment model not installed (explicit-threat fallback only)": {
+    "fr": "Modèle de commentaires non installé (détection de menaces explicites uniquement)",
+    "es": "Modelo de comentarios no instalado (solo detección de amenazas explícitas)",
+    "ru": "Модель комментариев не установлена (только явные угрозы)",
+    "zh-Hans": "未安装评论模型（仅检测明确威胁）"
+  },
+  "Comment model ready": {
+    "fr": "Modèle de commentaires prêt",
+    "es": "Modelo de comentarios listo",
+    "ru": "Модель комментариев готова",
+    "zh-Hans": "评论模型已就绪"
+  },
+  "Content filtering": {
+    "fr": "Filtrage du contenu",
+    "es": "Filtrado de contenido",
+    "ru": "Фильтрация содержимого",
+    "zh-Hans": "内容过滤"
+  },
+  "Copied recent log (trimmed)": {
+    "fr": "Journal récent copié (tronqué)",
+    "es": "Registro reciente copiado (recortado)",
+    "ru": "Недавний журнал скопирован (сокращён)",
+    "zh-Hans": "已复制最近日志（已截断）"
+  },
+  "Copies Weave's timestamped diagnostic history, lifecycle/editor breadcrumbs, slow/failed daemon RPC metadata, and current network/group state. It can contain public profile/DHT keys, group names and moderation activity, but never app session tokens, request payloads, profile text, authentication proofs, or media contents.": {
+    "fr": "Copie l’historique de diagnostic horodaté de Weave, les traces de cycle de vie/éditeur, les métadonnées des RPC du démon lentes ou échouées et l’état actuel du réseau/des groupes. Il peut contenir des clés publiques de profil/DHT, des noms de groupes et l’activité de modération, mais jamais de jetons de session, de contenus de requêtes, de texte de profil, de preuves d’authentification ou de médias.",
+    "es": "Copia el historial de diagnóstico con marcas de tiempo de Weave, rastros del ciclo de vida/editor, metadatos de RPC lentas o fallidas del daemon y el estado actual de red/grupos. Puede contener claves públicas de perfil/DHT, nombres de grupos y actividad de moderación, pero nunca tokens de sesión, cargas de solicitudes, texto de perfil, pruebas de autenticación ni contenido multimedia.",
+    "ru": "Копирует журнал диагностики Weave с отметками времени, события жизненного цикла/редактора, сведения о медленных или неудачных RPC демона и текущее состояние сети/групп. Может содержать публичные ключи профиля/DHT, названия групп и действия модерации, но не токены сессии, содержимое запросов, текст профиля, доказательства аутентификации или медиа.",
+    "zh-Hans": "复制带时间戳的 Weave 诊断历史、生命周期/编辑器记录、缓慢或失败的守护程序 RPC 元数据以及当前网络/群组状态。它可能包含公开的个人资料/DHT 密钥、群组名称和管理活动，但不会包含应用会话令牌、请求内容、个人资料文本、身份验证证明或媒体内容。"
+  },
+  "Copy failed": {
+    "fr": "Échec de la copie",
+    "es": "Error al copiar",
+    "ru": "Не удалось скопировать",
+    "zh-Hans": "复制失败"
+  },
+  "Copy image link": {
+    "fr": "Copier le lien de l’image",
+    "es": "Copiar enlace de imagen",
+    "ru": "Копировать ссылку на изображение",
+    "zh-Hans": "复制图片链接"
+  },
+  "Create Claim": {
+    "fr": "Créer la branche",
+    "es": "Crear rama",
+    "ru": "Создать ветку",
+    "zh-Hans": "创建分支"
+  },
+  "Create a post": {
+    "fr": "Créer une publication",
+    "es": "Crear una publicación",
+    "ru": "Создать публикацию",
+    "zh-Hans": "创建帖子"
+  },
+  "Fetching group information…": {
+    "fr": "Chargement des informations du groupe…",
+    "es": "Cargando información del grupo…",
+    "ru": "Загрузка информации о группе…",
+    "zh-Hans": "正在获取群组信息…"
+  },
+  "Weave is loading the group's current moderation branch and recent posts.": {
+    "fr": "Weave charge la branche de modération actuelle du groupe et ses publications récentes.",
+    "es": "Weave está cargando la rama de moderación actual del grupo y sus publicaciones recientes.",
+    "ru": "Weave загружает текущую ветку модерации группы и недавние публикации.",
+    "zh-Hans": "Weave 正在加载该群组当前的管理分支和最近帖子。"
+  },
+  "Create independent Claim": {
+    "fr": "Créer une branche indépendante",
+    "es": "Crear una rama independiente",
+    "ru": "Создать независимую ветку",
+    "zh-Hans": "创建独立管理分支"
+  },
+  "Create, manage and moderate groups from here.": {
+    "fr": "Créez, gérez et modérez vos groupes ici.",
+    "es": "Crea, administra y modera grupos desde aquí.",
+    "ru": "Создавайте группы, управляйте ими и модерируйте их здесь.",
+    "zh-Hans": "在这里创建、管理和审核群组。"
+  },
+  "Creating…": {
+    "fr": "Création…",
+    "es": "Creando…",
+    "ru": "Создание…",
+    "zh-Hans": "正在创建…"
+  },
+  "Curator": {
+    "fr": "Curateur",
+    "es": "Curador",
+    "ru": "Куратор",
+    "zh-Hans": "策展人"
+  },
+  "Custom message": {
+    "fr": "Message personnalisé",
+    "es": "Mensaje personalizado",
+    "ru": "Пользовательское сообщение",
+    "zh-Hans": "自定义消息"
+  },
+  "Custom title": {
+    "fr": "Titre personnalisé",
+    "es": "Título personalizado",
+    "ru": "Пользовательский заголовок",
+    "zh-Hans": "自定义标题"
+  },
+  "Delete this post": {
+    "fr": "Supprimer cette publication",
+    "es": "Eliminar esta publicación",
+    "ru": "Удалить эту публикацию",
+    "zh-Hans": "删除此帖子"
+  },
+  "Feature": {
+    "fr": "Mettre en avant",
+    "es": "Destacar",
+    "ru": "Выделить",
+    "zh-Hans": "精选"
+  },
+  "Featured area": {
+    "fr": "Zone mise en avant",
+    "es": "Área destacada",
+    "ru": "Выделенная область",
+    "zh-Hans": "精选区域"
+  },
+  "Featured text / note": {
+    "fr": "Texte / note mise en avant",
+    "es": "Texto / nota destacada",
+    "ru": "Выделенный текст / заметка",
+    "zh-Hans": "精选文字 / 备注"
+  },
+  "Featured title": {
+    "fr": "Titre mis en avant",
+    "es": "Título destacado",
+    "ru": "Выделенный заголовок",
+    "zh-Hans": "精选标题"
+  },
+  "Filtered": {
+    "fr": "Filtré",
+    "es": "Filtrado",
+    "ru": "Отфильтровано",
+    "zh-Hans": "已过滤"
+  },
+  "Gore / graphic content": {
+    "fr": "Violence graphique / gore",
+    "es": "Gore / contenido gráfico",
+    "ru": "Жестокий / графический контент",
+    "zh-Hans": "血腥 / 强烈画面"
+  },
+  "Group claimed": {
+    "fr": "Modération du groupe réclamée",
+    "es": "Moderación del grupo reclamada",
+    "ru": "Модерация группы принята",
+    "zh-Hans": "已认领群组管理"
+  },
+  "Group moderation": {
+    "fr": "Modération du groupe",
+    "es": "Moderación del grupo",
+    "ru": "Модерация группы",
+    "zh-Hans": "群组管理"
+  },
+  "Group name, topic, tag or Weave link": {
+    "fr": "Nom du groupe, sujet, tag ou lien Weave",
+    "es": "Nombre del grupo, tema, etiqueta o enlace de Weave",
+    "ru": "Название группы, тема, тег или ссылка Weave",
+    "zh-Hans": "群组名称、主题、标签或 Weave 链接"
+  },
+  "Group unavailable": {
+    "fr": "Groupe indisponible",
+    "es": "Grupo no disponible",
+    "ru": "Группа недоступна",
+    "zh-Hans": "群组不可用"
+  },
+  "Groups": {
+    "fr": "Groupes",
+    "es": "Grupos",
+    "ru": "Группы",
+    "zh-Hans": "群组"
+  },
+  "Groups learned from people appear here. You can also paste a Weave group link.": {
+    "fr": "Les groupes découverts via des personnes apparaissent ici. Vous pouvez aussi coller un lien de groupe Weave.",
+    "es": "Los grupos descubiertos a través de personas aparecen aquí. También puedes pegar un enlace de grupo de Weave.",
+    "ru": "Здесь появляются группы, найденные через людей. Также можно вставить ссылку на группу Weave.",
+    "zh-Hans": "通过用户发现的群组会显示在这里。你也可以粘贴 Weave 群组链接。"
+  },
+  "Groups you join will appear here.": {
+    "fr": "Les groupes que vous rejoignez apparaîtront ici.",
+    "es": "Los grupos a los que te unas aparecerán aquí.",
+    "ru": "Группы, в которые вы вступите, появятся здесь.",
+    "zh-Hans": "你加入的群组会显示在这里。"
+  },
+  "Hidden": {
+    "fr": "Masqué",
+    "es": "Oculto",
+    "ru": "Скрыто",
+    "zh-Hans": "已隐藏"
+  },
+  "Hidden by your": {
+    "fr": "Masqué par votre",
+    "es": "Oculto por tu",
+    "ru": "Скрыто вашим",
+    "zh-Hans": "已被你的"
+  },
+  "Hide until tapped": {
+    "fr": "Masquer jusqu’à l’appui",
+    "es": "Ocultar hasta tocar",
+    "ru": "Скрывать до нажатия",
+    "zh-Hans": "点击前隐藏"
+  },
+  "High": {
+    "fr": "Élevée",
+    "es": "Alta",
+    "ru": "Высокая",
+    "zh-Hans": "高"
+  },
+  "Image model NOT installed — images cannot be classified": {
+    "fr": "Modèle d’image NON installé — les images ne peuvent pas être classées",
+    "es": "Modelo de imagen NO instalado: no se pueden clasificar imágenes",
+    "ru": "Модель изображений НЕ установлена — изображения нельзя классифицировать",
+    "zh-Hans": "未安装图片模型——无法分类图片"
+  },
+  "Image model ready": {
+    "fr": "Modèle d’image prêt",
+    "es": "Modelo de imagen listo",
+    "ru": "Модель изображений готова",
+    "zh-Hans": "图片模型已就绪"
+  },
+  "Invite only": {
+    "fr": "Sur invitation",
+    "es": "Solo por invitación",
+    "ru": "Только по приглашению",
+    "zh-Hans": "仅限邀请"
+  },
+  "It may remain unreviewed until the selected branch accepts it.": {
+    "fr": "Elle peut rester non examinée jusqu’à ce que la branche sélectionnée l’accepte.",
+    "es": "Puede quedar sin revisar hasta que la rama seleccionada la acepte.",
+    "ru": "Она может оставаться непроверенной, пока выбранная ветка её не примет.",
+    "zh-Hans": "在所选管理分支接受之前，它可能保持未审核状态。"
+  },
+  "Join": {
+    "fr": "Rejoindre",
+    "es": "Unirse",
+    "ru": "Вступить",
+    "zh-Hans": "加入"
+  },
+  "Joined groups": {
+    "fr": "Groupes rejoints",
+    "es": "Grupos unidos",
+    "ru": "Группы, в которые вы вступили",
+    "zh-Hans": "已加入的群组"
+  },
+  "Leave group": {
+    "fr": "Quitter le groupe",
+    "es": "Salir del grupo",
+    "ru": "Покинуть группу",
+    "zh-Hans": "退出群组"
+  },
+  "Load image": {
+    "fr": "Charger l’image",
+    "es": "Cargar imagen",
+    "ru": "Загрузить изображение",
+    "zh-Hans": "加载图片"
+  },
+  "Loading full image…": {
+    "fr": "Chargement de l’image complète…",
+    "es": "Cargando imagen completa…",
+    "ru": "Загрузка полного изображения…",
+    "zh-Hans": "正在加载完整图片…"
+  },
+  "Loading image…": {
+    "fr": "Chargement de l’image…",
+    "es": "Cargando imagen…",
+    "ru": "Загрузка изображения…",
+    "zh-Hans": "正在加载图片…"
+  },
+  "Loading post…": {
+    "fr": "Chargement de la publication…",
+    "es": "Cargando publicación…",
+    "ru": "Загрузка публикации…",
+    "zh-Hans": "正在加载帖子…"
+  },
+  "Loading widget library…": {
+    "fr": "Chargement de la bibliothèque de widgets…",
+    "es": "Cargando biblioteca de widgets…",
+    "ru": "Загрузка библиотеки виджетов…",
+    "zh-Hans": "正在加载小组件库…"
+  },
+  "Low": {
+    "fr": "Faible",
+    "es": "Baja",
+    "ru": "Низкая",
+    "zh-Hans": "低"
+  },
+  "Manage": {
+    "fr": "Gérer",
+    "es": "Administrar",
+    "ru": "Управлять",
+    "zh-Hans": "管理"
+  },
+  "Media is uploaded first, then the post is delivered to the group's moderation branches.": {
+    "fr": "Le média est d’abord téléversé, puis la publication est envoyée aux branches de modération du groupe.",
+    "es": "Primero se sube el contenido multimedia y luego la publicación se envía a las ramas de moderación del grupo.",
+    "ru": "Сначала загружается медиафайл, затем публикация доставляется в ветки модерации группы.",
+    "zh-Hans": "媒体会先上传，然后帖子再发送到群组的管理分支。"
+  },
+  "Medium": {
+    "fr": "Moyenne",
+    "es": "Media",
+    "ru": "Средняя",
+    "zh-Hans": "中"
+  },
+  "Moderation continuity": {
+    "fr": "Continuité de la modération",
+    "es": "Continuidad de moderación",
+    "ru": "Непрерывность модерации",
+    "zh-Hans": "管理连续性"
+  },
+  "Moderator main DHT": {
+    "fr": "DHT principal du modérateur",
+    "es": "DHT principal del moderador",
+    "ru": "Основной DHT модератора",
+    "zh-Hans": "版主主 DHT"
+  },
+  "Moderators": {
+    "fr": "Modérateurs",
+    "es": "Moderadores",
+    "ru": "Модераторы",
+    "zh-Hans": "版主"
+  },
+  "Modified for this curated version · original source unchanged": {
+    "fr": "Modifié pour cette version organisée · source originale inchangée",
+    "es": "Modificado para esta versión curada · fuente original sin cambios",
+    "ru": "Изменено для этой курируемой версии · исходник не изменён",
+    "zh-Hans": "已为此策展版本修改 · 原始来源未更改"
+  },
+  "Modified for this curated version · source post unchanged": {
+    "fr": "Modifié pour cette version organisée · publication source inchangée",
+    "es": "Modificado para esta versión curada · publicación original sin cambios",
+    "ru": "Изменено для этой курируемой версии · исходная публикация не изменена",
+    "zh-Hans": "已为此策展版本修改 · 原帖子未更改"
+  },
+  "Modify for this curated version": {
+    "fr": "Modifier pour cette version organisée",
+    "es": "Modificar para esta versión curada",
+    "ru": "Изменить для курируемой версии",
+    "zh-Hans": "为此策展版本修改"
+  },
+  "Modify this post": {
+    "fr": "Modifier cette publication",
+    "es": "Modificar esta publicación",
+    "ru": "Изменить эту публикацию",
+    "zh-Hans": "修改此帖子"
+  },
+  "Name": {
+    "fr": "Nom",
+    "es": "Nombre",
+    "ru": "Имя",
+    "zh-Hans": "名称"
+  },
+  "Needs attention": {
+    "fr": "Nécessite votre attention",
+    "es": "Necesita atención",
+    "ru": "Требует внимания",
+    "zh-Hans": "需要处理"
+  },
+  "No comments yet.": {
+    "fr": "Aucun commentaire pour le moment.",
+    "es": "Aún no hay comentarios.",
+    "ru": "Комментариев пока нет.",
+    "zh-Hans": "还没有评论。"
+  },
+  "No groups yet": {
+    "fr": "Aucun groupe pour le moment",
+    "es": "Aún no hay grupos",
+    "ru": "Групп пока нет",
+    "zh-Hans": "还没有群组"
+  },
+  "No posts yet.": {
+    "fr": "Aucune publication pour le moment.",
+    "es": "Aún no hay publicaciones.",
+    "ru": "Публикаций пока нет.",
+    "zh-Hans": "还没有帖子。"
+  },
+  "No retained post submissions are available on this device.": {
+    "fr": "Aucune soumission de publication conservée n’est disponible sur cet appareil.",
+    "es": "No hay envíos de publicaciones retenidos disponibles en este dispositivo.",
+    "ru": "На этом устройстве нет сохранённых отправок публикаций.",
+    "zh-Hans": "此设备上没有保留的帖子提交。"
+  },
+  "Nothing featured yet.": {
+    "fr": "Rien de mis en avant pour le moment.",
+    "es": "Aún no hay nada destacado.",
+    "ru": "Пока ничего не выделено.",
+    "zh-Hans": "还没有精选内容。"
+  },
+  "Nothing needs attention": {
+    "fr": "Rien ne nécessite votre attention",
+    "es": "Nada necesita atención",
+    "ru": "Ничего не требует внимания",
+    "zh-Hans": "没有需要处理的内容"
+  },
+  "OK": {
+    "fr": "OK",
+    "es": "Aceptar",
+    "ru": "ОК",
+    "zh-Hans": "确定"
+  },
+  "Off": {
+    "fr": "Désactivée",
+    "es": "Desactivada",
+    "ru": "Выкл.",
+    "zh-Hans": "关闭"
+  },
+  "Open": {
+    "fr": "Ouvrir",
+    "es": "Abrir",
+    "ru": "Открыть",
+    "zh-Hans": "打开"
+  },
+  "Open browser": {
+    "fr": "Ouvrir le navigateur",
+    "es": "Abrir navegador",
+    "ru": "Открыть браузер",
+    "zh-Hans": "打开浏览器"
+  },
+  "Open external link?": {
+    "fr": "Ouvrir le lien externe ?",
+    "es": "¿Abrir enlace externo?",
+    "ru": "Открыть внешнюю ссылку?",
+    "zh-Hans": "打开外部链接？"
+  },
+  "Or feature a post/comment": {
+    "fr": "Ou mettre en avant une publication/un commentaire",
+    "es": "O destacar una publicación/comentario",
+    "ru": "Или выделить публикацию/комментарий",
+    "zh-Hans": "或精选帖子/评论"
+  },
+  "Original": {
+    "fr": "Original",
+    "es": "Original",
+    "ru": "Оригинал",
+    "zh-Hans": "原始"
+  },
+  "Paste a copied Weave image link or the image's raw DHT record key.": {
+    "fr": "Collez un lien d’image Weave copié ou la clé DHT brute de l’image.",
+    "es": "Pega un enlace de imagen de Weave copiado o la clave DHT sin procesar de la imagen.",
+    "ru": "Вставьте скопированную ссылку Weave на изображение или необработанный ключ DHT изображения.",
+    "zh-Hans": "粘贴已复制的 Weave 图片链接或图片的原始 DHT 记录密钥。"
+  },
+  "Preparing media…": {
+    "fr": "Préparation du média…",
+    "es": "Preparando contenido multimedia…",
+    "ru": "Подготовка медиа…",
+    "zh-Hans": "正在准备媒体…"
+  },
+  "Preparing…": {
+    "fr": "Préparation…",
+    "es": "Preparando…",
+    "ru": "Подготовка…",
+    "zh-Hans": "正在准备…"
+  },
+  "Profile storage needs attention": {
+    "fr": "Le stockage du profil nécessite votre attention",
+    "es": "El almacenamiento del perfil necesita atención",
+    "ru": "Хранилище профиля требует внимания",
+    "zh-Hans": "个人资料存储需要处理"
+  },
+  "Public reason (optional)": {
+    "fr": "Motif public (facultatif)",
+    "es": "Motivo público (opcional)",
+    "ru": "Публичная причина (необязательно)",
+    "zh-Hans": "公开原因（可选）"
+  },
+  "Reconnecting to VeilKnit…": {
+    "fr": "Reconnexion à VeilKnit…",
+    "es": "Reconectando con VeilKnit…",
+    "ru": "Повторное подключение к VeilKnit…",
+    "zh-Hans": "正在重新连接 VeilKnit…"
+  },
+  "Reject / Drop": {
+    "fr": "Refuser / Rejeter",
+    "es": "Rechazar / Descartar",
+    "ru": "Отклонить / Удалить",
+    "zh-Hans": "拒绝 / 丢弃"
+  },
+  "Remove": {
+    "fr": "Retirer",
+    "es": "Quitar",
+    "ru": "Удалить",
+    "zh-Hans": "移除"
+  },
+  "Remove this post?": {
+    "fr": "Retirer cette publication ?",
+    "es": "¿Quitar esta publicación?",
+    "ru": "Удалить эту публикацию?",
+    "zh-Hans": "移除此帖子？"
+  },
+  "Removed on this branch": {
+    "fr": "Retiré sur cette branche",
+    "es": "Eliminado en esta rama",
+    "ru": "Удалено в этой ветке",
+    "zh-Hans": "已从此分支移除"
+  },
+  "Reports, join requests and quarantined posts will appear here.": {
+    "fr": "Les signalements, demandes d’adhésion et publications en quarantaine apparaîtront ici.",
+    "es": "Los reportes, solicitudes de ingreso y publicaciones en cuarentena aparecerán aquí.",
+    "ru": "Здесь появятся жалобы, запросы на вступление и публикации в карантине.",
+    "zh-Hans": "举报、加入请求和隔离帖子会显示在这里。"
+  },
+  "Retained and pending submissions": {
+    "fr": "Soumissions conservées et en attente",
+    "es": "Envíos retenidos y pendientes",
+    "ru": "Сохранённые и ожидающие отправки",
+    "zh-Hans": "保留和待处理的提交"
+  },
+  "Review profile comments and profile activity that needs your attention.": {
+    "fr": "Consultez les commentaires du profil et l’activité nécessitant votre attention.",
+    "es": "Revisa los comentarios del perfil y la actividad que necesita tu atención.",
+    "ru": "Просматривайте комментарии профиля и действия, требующие внимания.",
+    "zh-Hans": "查看个人资料评论和需要你处理的动态。"
+  },
+  "Sensitivity": {
+    "fr": "Sensibilité",
+    "es": "Sensibilidad",
+    "ru": "Чувствительность",
+    "zh-Hans": "敏感度"
+  },
+  "Sensitivity changes how readily something is flagged. The action controls what Weave does after your filter flags it. All filters are off by default.": {
+    "fr": "La sensibilité détermine la facilité avec laquelle un contenu est signalé. L’action détermine ce que fait Weave après un signalement. Tous les filtres sont désactivés par défaut.",
+    "es": "La sensibilidad cambia la facilidad con la que se marca algo. La acción controla lo que hace Weave después de marcarlo. Todos los filtros están desactivados de forma predeterminada.",
+    "ru": "Чувствительность определяет, насколько легко контент помечается. Действие определяет, что делает Weave после срабатывания фильтра. По умолчанию все фильтры выключены.",
+    "zh-Hans": "敏感度决定内容多容易被标记；操作决定过滤器标记后 Weave 如何处理。所有过滤器默认关闭。"
+  },
+  "Sexual content": {
+    "fr": "Contenu sexuel",
+    "es": "Contenido sexual",
+    "ru": "Сексуальный контент",
+    "zh-Hans": "色情内容"
+  },
+  "Show normally": {
+    "fr": "Afficher normalement",
+    "es": "Mostrar normalmente",
+    "ru": "Показывать обычно",
+    "zh-Hans": "正常显示"
+  },
+  "Show warning": {
+    "fr": "Afficher un avertissement",
+    "es": "Mostrar advertencia",
+    "ru": "Показывать предупреждение",
+    "zh-Hans": "显示警告"
+  },
+  "Simple controls": {
+    "fr": "Contrôles simples",
+    "es": "Controles simples",
+    "ru": "Простые настройки",
+    "zh-Hans": "简单控制"
+  },
+  "Snapshot": {
+    "fr": "Aperçu",
+    "es": "Resumen",
+    "ru": "Обзор",
+    "zh-Hans": "快照"
+  },
+  "Tap to show anyway": {
+    "fr": "Appuyez pour afficher quand même",
+    "es": "Toca para mostrar de todos modos",
+    "ru": "Нажмите, чтобы всё равно показать",
+    "zh-Hans": "点击仍然显示"
+  },
+  "Temporary intake activity is shown separately until the selected moderation branch accepts or removes it.": {
+    "fr": "L’activité temporaire reçue est affichée séparément jusqu’à ce que la branche de modération sélectionnée l’accepte ou la retire.",
+    "es": "La actividad temporal recibida se muestra por separado hasta que la rama de moderación seleccionada la acepte o elimine.",
+    "ru": "Временная входящая активность показывается отдельно, пока выбранная ветка модерации не примет или не удалит её.",
+    "zh-Hans": "临时接收的活动会单独显示，直到所选管理分支接受或移除它。"
+  },
+  "The reason is shown with the removal notice so viewers can see why this branch removed it.": {
+    "fr": "Le motif accompagne l’avis de retrait afin que les lecteurs sachent pourquoi cette branche l’a retirée.",
+    "es": "El motivo se muestra junto al aviso de eliminación para que los lectores sepan por qué esta rama lo quitó.",
+    "ru": "Причина показывается вместе с уведомлением об удалении, чтобы было видно, почему ветка удалила материал.",
+    "zh-Hans": "原因会与移除提示一起显示，让查看者知道该分支为何移除它。"
+  },
+  "The retained event is known, but its payload is not currently available or failed hash verification.": {
+    "fr": "L’événement conservé est connu, mais son contenu n’est pas disponible actuellement ou a échoué à la vérification du hachage.",
+    "es": "El evento retenido es conocido, pero su contenido no está disponible o falló la verificación del hash.",
+    "ru": "Сохранённое событие известно, но его содержимое сейчас недоступно или не прошло проверку хэша.",
+    "zh-Hans": "已知该保留事件，但其内容当前不可用或哈希验证失败。"
+  },
+  "The source post is not destroyed. It is removed from this moderation branch.": {
+    "fr": "La publication source n’est pas détruite. Elle est seulement retirée de cette branche de modération.",
+    "es": "La publicación original no se destruye. Solo se elimina de esta rama de moderación.",
+    "ru": "Исходная публикация не уничтожается. Она удаляется только из этой ветки модерации.",
+    "zh-Hans": "原帖子不会被销毁，只会从此管理分支中移除。"
+  },
+  "These filters run on this device for you. They do not report people, remove posts, or change what anyone else sees.": {
+    "fr": "Ces filtres s’exécutent uniquement sur cet appareil pour vous. Ils ne signalent personne, ne suppriment aucune publication et ne modifient pas ce que les autres voient.",
+    "es": "Estos filtros se ejecutan en este dispositivo solo para ti. No reportan personas, eliminan publicaciones ni cambian lo que ven los demás.",
+    "ru": "Эти фильтры работают только на вашем устройстве. Они не отправляют жалобы, не удаляют публикации и не меняют то, что видят другие.",
+    "zh-Hans": "这些过滤器只在你的设备上运行。它们不会举报用户、删除帖子或改变其他人看到的内容。"
+  },
+  "This Weave log is kept across reconnects and records editor/navigation transitions plus Java/Kotlin fatal exceptions, so intermittent failures can be inspected afterward. Very large reports are trimmed for Android clipboard safety while preserving the report summary and newest log history. The daemon keeps a separate lower-level network/API log; for connection problems, copying both is useful.": {
+    "fr": "Ce journal Weave est conservé lors des reconnexions et enregistre les transitions de l’éditeur/navigation ainsi que les exceptions fatales Java/Kotlin. Les très grands rapports sont tronqués pour le presse-papiers Android tout en conservant le résumé et les lignes les plus récentes. Le démon garde un journal réseau/API distinct ; pour les problèmes de connexion, copier les deux est utile.",
+    "es": "Este registro de Weave se conserva entre reconexiones y registra transiciones del editor/navegación y excepciones fatales de Java/Kotlin. Los informes muy grandes se recortan para proteger el portapapeles de Android, conservando el resumen y el historial más reciente. El daemon mantiene un registro separado de red/API; para problemas de conexión conviene copiar ambos.",
+    "ru": "Этот журнал Weave сохраняется при переподключениях и записывает переходы редактора/навигации и критические исключения Java/Kotlin. Очень большие отчёты сокращаются для безопасной работы буфера Android, сохраняя сводку и самые новые записи. Демон ведёт отдельный низкоуровневый журнал сети/API; при проблемах подключения полезно копировать оба.",
+    "zh-Hans": "此 Weave 日志会跨重连保留，并记录编辑器/导航切换以及 Java/Kotlin 致命异常。非常大的报告会为 Android 剪贴板安全而截断，同时保留摘要和最新日志。守护程序另有底层网络/API 日志；连接问题时同时复制两份日志会更有帮助。"
+  },
+  "This cached group entry no longer exists.": {
+    "fr": "Cette entrée de groupe en cache n’existe plus.",
+    "es": "Esta entrada de grupo en caché ya no existe.",
+    "ru": "Этой записи группы в кэше больше нет.",
+    "zh-Hans": "此缓存群组条目已不存在。"
+  },
+  "This creates a branch-local curated copy. The author's original source object is not modified.": {
+    "fr": "Cela crée une copie organisée propre à cette branche. L’objet source original de l’auteur n’est pas modifié.",
+    "es": "Esto crea una copia curada local de la rama. El objeto original del autor no se modifica.",
+    "ru": "Создаётся курируемая копия только для этой ветки. Исходный объект автора не изменяется.",
+    "zh-Hans": "这会创建仅属于此分支的策展副本，不会修改作者的原始对象。"
+  },
+  "This creates your own independent moderation branch. It does not replace, revoke, or take control of the Original branch. People can choose which moderation branch they want to view.": {
+    "fr": "Cela crée votre propre branche de modération indépendante. Elle ne remplace pas, ne révoque pas et ne prend pas le contrôle de la branche Originale. Chacun peut choisir la branche de modération qu’il souhaite consulter.",
+    "es": "Esto crea tu propia rama de moderación independiente. No reemplaza, revoca ni toma el control de la rama Original. Cada persona puede elegir qué rama de moderación quiere ver.",
+    "ru": "Создаётся ваша независимая ветка модерации. Она не заменяет, не отзывает и не захватывает Оригинальную ветку. Пользователи сами выбирают, какую ветку модерации просматривать.",
+    "zh-Hans": "这会创建你自己的独立管理分支。它不会替换、撤销或接管原始分支；用户可以自行选择要查看的管理分支。"
+  },
+  "This link leaves Weave and opens another app or browser.": {
+    "fr": "Ce lien quitte Weave et ouvre une autre application ou un navigateur.",
+    "es": "Este enlace sale de Weave y abre otra aplicación o navegador.",
+    "ru": "Эта ссылка покидает Weave и открывает другое приложение или браузер.",
+    "zh-Hans": "此链接会离开 Weave，并打开其他应用或浏览器。"
+  },
+  "This view shows post submissions still retained by this device's curator/custody layer, including items that a moderation branch has not exposed.": {
+    "fr": "Cette vue affiche les publications encore conservées par la couche de curation/garde de cet appareil, y compris celles qu’une branche de modération n’a pas encore exposées.",
+    "es": "Esta vista muestra envíos de publicaciones aún retenidos por la capa de curaduría/custodia del dispositivo, incluidos elementos que una rama de moderación aún no ha mostrado.",
+    "ru": "Здесь показаны отправки публикаций, всё ещё хранимые кураторским/кастодиальным слоем устройства, включая материалы, которые ветка модерации ещё не показала.",
+    "zh-Hans": "此视图显示仍由本设备策展/托管层保留的帖子提交，包括管理分支尚未公开的内容。"
+  },
+  "Title": {
+    "fr": "Titre",
+    "es": "Título",
+    "ru": "Заголовок",
+    "zh-Hans": "标题"
+  },
+  "Topics / tags": {
+    "fr": "Sujets / tags",
+    "es": "Temas / etiquetas",
+    "ru": "Темы / теги",
+    "zh-Hans": "主题 / 标签"
+  },
+  "Use Search to find groups, or Me to create one.": {
+    "fr": "Utilisez Recherche pour trouver des groupes, ou Moi pour en créer un.",
+    "es": "Usa Buscar para encontrar grupos, o Yo para crear uno.",
+    "ru": "Используйте Поиск, чтобы найти группы, или Я, чтобы создать группу.",
+    "zh-Hans": "使用“搜索”查找群组，或在“我”中创建群组。"
+  },
+  "Use custom message": {
+    "fr": "Utiliser le message personnalisé",
+    "es": "Usar mensaje personalizado",
+    "ru": "Использовать своё сообщение",
+    "zh-Hans": "使用自定义消息"
+  },
+  "Weave group": {
+    "fr": "Groupe Weave",
+    "es": "Grupo de Weave",
+    "ru": "Группа Weave",
+    "zh-Hans": "Weave 群组"
+  },
+  "Weave group link": {
+    "fr": "Lien de groupe Weave",
+    "es": "Enlace de grupo de Weave",
+    "ru": "Ссылка на группу Weave",
+    "zh-Hans": "Weave 群组链接"
+  },
+  "Weave image": {
+    "fr": "Image Weave",
+    "es": "Imagen de Weave",
+    "ru": "Изображение Weave",
+    "zh-Hans": "Weave 图片"
+  },
+  "Weave post": {
+    "fr": "Publication Weave",
+    "es": "Publicación de Weave",
+    "ru": "Публикация Weave",
+    "zh-Hans": "Weave 帖子"
+  },
+  "When detected": {
+    "fr": "Lors de la détection",
+    "es": "Al detectar",
+    "ru": "При обнаружении",
+    "zh-Hans": "检测到时"
+  },
+  "You haven't created or moderated any groups yet.": {
+    "fr": "Vous n’avez encore créé ou modéré aucun groupe.",
+    "es": "Aún no has creado ni moderado ningún grupo.",
+    "ru": "Вы ещё не создали и не модерируете ни одной группы.",
+    "zh-Hans": "你还没有创建或管理任何群组。"
+  },
+  "Your current screen and unsaved editor changes are being kept in memory.": {
+    "fr": "Votre écran actuel et les modifications non enregistrées de l’éditeur sont conservés en mémoire.",
+    "es": "La pantalla actual y los cambios sin guardar del editor se conservan en memoria.",
+    "ru": "Текущий экран и несохранённые изменения редактора сохраняются в памяти.",
+    "zh-Hans": "当前页面和未保存的编辑器更改会保留在内存中。"
+  },
+  "Your groups": {
+    "fr": "Vos groupes",
+    "es": "Tus grupos",
+    "ru": "Ваши группы",
+    "zh-Hans": "你的群组"
+  },
+  "content": {
+    "fr": "contenu",
+    "es": "contenido",
+    "ru": "контент",
+    "zh-Hans": "内容"
+  },
+  "filter": {
+    "fr": "filtre",
+    "es": "filtro",
+    "ru": "фильтром",
+    "zh-Hans": "过滤器"
+  },
+  "This media link type is not supported.": {
+    "fr": "Ce type de lien média n’est pas pris en charge.",
+    "es": "Este tipo de enlace multimedia no es compatible.",
+    "ru": "Этот тип медиа-ссылки не поддерживается.",
+    "zh-Hans": "不支持此媒体链接类型。"
+  },
+  "The full image is fetched only when you ask for it.": {
+    "fr": "L’image complète n’est récupérée que lorsque vous la demandez.",
+    "es": "La imagen completa solo se descarga cuando la solicitas.",
+    "ru": "Полное изображение загружается только по вашему запросу.",
+    "zh-Hans": "只有在你请求时才会获取完整图片。"
+  },
+  "Large widgets such as Chess can take a moment to prepare.": {
+    "fr": "Les grands widgets comme Échecs peuvent prendre un moment à préparer.",
+    "es": "Los widgets grandes, como Ajedrez, pueden tardar un momento en prepararse.",
+    "ru": "Крупные виджеты, например Шахматы, могут готовиться некоторое время.",
+    "zh-Hans": "大型小组件（如国际象棋）可能需要一些时间准备。"
+  },
+  "member": {
+    "fr": "membre",
+    "es": "miembro",
+    "ru": "участник",
+    "zh-Hans": "成员"
+  },
+  "members": {
+    "fr": "membres",
+    "es": "miembros",
+    "ru": "участников",
+    "zh-Hans": "成员"
+  },
+  "unreviewed item": {
+    "fr": "élément non examiné",
+    "es": "elemento sin revisar",
+    "ru": "непроверенный элемент",
+    "zh-Hans": "未审核项目"
+  },
+  "unreviewed items": {
+    "fr": "éléments non examinés",
+    "es": "elementos sin revisar",
+    "ru": "непроверенных элементов",
+    "zh-Hans": "未审核项目"
+  },
+  "comment": {
+    "fr": "commentaire",
+    "es": "comentario",
+    "ru": "комментарий",
+    "zh-Hans": "条评论"
+  },
+  "comments": {
+    "fr": "commentaires",
+    "es": "comentarios",
+    "ru": "комментариев",
+    "zh-Hans": "条评论"
+  },
+  "Originally posted by": {
+    "fr": "Publié à l’origine par",
+    "es": "Publicado originalmente por",
+    "ru": "Изначально опубликовано пользователем",
+    "zh-Hans": "最初发布者："
+  },
+  "active": {
+    "fr": "actifs",
+    "es": "activos",
+    "ru": "активных",
+    "zh-Hans": "活跃"
+  },
+  "participants": {
+    "fr": "participants",
+    "es": "participantes",
+    "ru": "участников",
+    "zh-Hans": "参与者"
+  },
+  "Public": {
+    "fr": "Public",
+    "es": "Público",
+    "ru": "Публичная",
+    "zh-Hans": "公开"
+  },
+  "Unlisted": {
+    "fr": "Non répertorié",
+    "es": "No listado",
+    "ru": "По ссылке",
+    "zh-Hans": "不公开列出"
+  },
+  "Members Only": {
+    "fr": "Membres uniquement",
+    "es": "Solo miembros",
+    "ru": "Только для участников",
+    "zh-Hans": "仅成员"
+  },
+  "Request": {
+    "fr": "Sur demande",
+    "es": "Por solicitud",
+    "ru": "По запросу",
+    "zh-Hans": "需申请"
+  },
+  "Invite": {
+    "fr": "Sur invitation",
+    "es": "Por invitación",
+    "ru": "По приглашению",
+    "zh-Hans": "邀请制"
+  },
+  "Established": {
+    "fr": "Membres établis",
+    "es": "Miembros establecidos",
+    "ru": "Проверенные участники",
+    "zh-Hans": "已建立成员"
+  },
+  "Approval": {
+    "fr": "Avec approbation",
+    "es": "Con aprobación",
+    "ru": "С одобрением",
+    "zh-Hans": "需审核"
+  },
+  "Relaxed": {
+    "fr": "Souple",
+    "es": "Relajada",
+    "ru": "Мягкая",
+    "zh-Hans": "宽松"
+  },
+  "Balanced": {
+    "fr": "Équilibrée",
+    "es": "Equilibrada",
+    "ru": "Сбалансированная",
+    "zh-Hans": "平衡"
+  },
+  "Strict": {
+    "fr": "Stricte",
+    "es": "Estricta",
+    "ru": "Строгая",
+    "zh-Hans": "严格"
+  },
+  "Custom": {
+    "fr": "Personnalisée",
+    "es": "Personalizada",
+    "ru": "Настраиваемая",
+    "zh-Hans": "自定义"
+  },
+  "Creator": {
+    "fr": "Créateur",
+    "es": "Creador",
+    "ru": "Создатель",
+    "zh-Hans": "创建者"
+  },
+  "Claimer": {
+    "fr": "Réclamant",
+    "es": "Reclamante",
+    "ru": "Владелец ветки",
+    "zh-Hans": "认领者"
+  },
+  "Admin": {
+    "fr": "Administrateur",
+    "es": "Administrador",
+    "ru": "Администратор",
+    "zh-Hans": "管理员"
+  },
+  "Moderator": {
+    "fr": "Modérateur",
+    "es": "Moderador",
+    "ru": "Модератор",
+    "zh-Hans": "版主"
+  },
+  "Member": {
+    "fr": "Membre",
+    "es": "Miembro",
+    "ru": "Участник",
+    "zh-Hans": "成员"
+  },
+  "None": {
+    "fr": "Aucun",
+    "es": "Ninguno",
+    "ru": "Нет",
+    "zh-Hans": "无"
+  },
+  "Widget": {
+    "fr": "Widget",
+    "es": "Widget",
+    "ru": "Виджет",
+    "zh-Hans": "小组件"
+  },
+  "Message": {
+    "fr": "Message",
+    "es": "Mensaje",
+    "ru": "Сообщение",
+    "zh-Hans": "消息"
+  },
+  "Report": {
+    "fr": "Signalement",
+    "es": "Reporte",
+    "ru": "Жалоба",
+    "zh-Hans": "举报"
+  },
+  "Join Request": {
+    "fr": "Demande d’adhésion",
+    "es": "Solicitud de ingreso",
+    "ru": "Запрос на вступление",
+    "zh-Hans": "加入请求"
+  },
+  "Appeal": {
+    "fr": "Appel",
+    "es": "Apelación",
+    "ru": "Апелляция",
+    "zh-Hans": "申诉"
+  },
+  "Quarantined Post": {
+    "fr": "Publication en quarantaine",
+    "es": "Publicación en cuarentena",
+    "ru": "Публикация в карантине",
+    "zh-Hans": "隔离帖子"
+  },
+  "Pending": {
+    "fr": "En attente",
+    "es": "Pendiente",
+    "ru": "Ожидает",
+    "zh-Hans": "待处理"
+  },
+  "Kept": {
+    "fr": "Conservé",
+    "es": "Conservado",
+    "ru": "Сохранено",
+    "zh-Hans": "已保留"
+  },
+  "Approved": {
+    "fr": "Approuvé",
+    "es": "Aprobado",
+    "ru": "Одобрено",
+    "zh-Hans": "已批准"
+  },
+  "Rejected": {
+    "fr": "Refusé",
+    "es": "Rechazado",
+    "ru": "Отклонено",
+    "zh-Hans": "已拒绝"
+  },
+  "A small mix of people whose MinHash interests look similar to yours, with some rotation so the list is not always identical.": {
+    "fr": "Un petit mélange de personnes dont les intérêts MinHash ressemblent aux vôtres, avec un peu de rotation pour que la liste ne soit pas toujours identique.",
+    "es": "Una pequeña mezcla de personas cuyos intereses MinHash se parecen a los tuyos, con algo de rotación para que la lista no sea siempre idéntica.",
+    "ru": "Небольшая подборка людей с похожими MinHash-интересами, с некоторой ротацией, чтобы список не был всегда одинаковым.",
+    "zh-Hans": "一小组 MinHash 兴趣与你相似的人，并进行一定轮换，这样列表不会总是完全相同。"
+  },
+  "Audio": {
+    "fr": "Audio",
+    "es": "Audio",
+    "ru": "Аудио",
+    "zh-Hans": "音频"
+  },
+  "Confirmed at root": {
+    "fr": "Confirmé à la racine",
+    "es": "Confirmado en la raíz",
+    "ru": "Подтверждено в корне",
+    "zh-Hans": "已在根记录确认"
+  },
+  "Could not load the widget library:": {
+    "fr": "Impossible de charger la bibliothèque de widgets :",
+    "es": "No se pudo cargar la biblioteca de widgets:",
+    "ru": "Не удалось загрузить библиотеку виджетов:",
+    "zh-Hans": "无法加载小组件库："
+  },
+  "Heard via gossip": {
+    "fr": "Reçu via gossip",
+    "es": "Recibido por gossip",
+    "ru": "Получено через gossip",
+    "zh-Hans": "通过 gossip 获知"
+  },
+  "Image unavailable.": {
+    "fr": "Image indisponible.",
+    "es": "Imagen no disponible.",
+    "ru": "Изображение недоступно.",
+    "zh-Hans": "图片不可用。"
+  },
+  "Linked audio": {
+    "fr": "Audio lié",
+    "es": "Audio enlazado",
+    "ru": "Связанное аудио",
+    "zh-Hans": "链接音频"
+  },
+  "Linked image": {
+    "fr": "Image liée",
+    "es": "Imagen enlazada",
+    "ru": "Связанное изображение",
+    "zh-Hans": "链接图片"
+  },
+  "Read from source": {
+    "fr": "Lu depuis la source",
+    "es": "Leído desde la fuente",
+    "ru": "Прочитано из источника",
+    "zh-Hans": "从来源读取"
+  },
+  "Seen via several peers": {
+    "fr": "Vu via plusieurs pairs",
+    "es": "Visto a través de varios pares",
+    "ru": "Получено от нескольких пиров",
+    "zh-Hans": "通过多个对等节点看到"
+  },
+  "Basic": {
+    "fr": "Basique",
+    "es": "Básique",
+    "ru": "Базовый",
+    "zh-Hans": "基础"
+  },
+  "Social": {
+    "fr": "Social",
+    "es": "Social",
+    "ru": "Социальное",
+    "zh-Hans": "社交"
+  },
+  "Loading widget details…": {
+    "fr": "Chargement des détails du widget…",
+    "es": "Cargando detalles del widget…",
+    "ru": "Загрузка сведений о виджете…",
+    "zh-Hans": "正在加载小组件详情…"
+  },
+  "Sanitized AAC/M4A": {
+    "fr": "AAC/M4A nettoyé",
+    "es": "AAC/M4A sanitizado",
+    "ru": "Очищенный AAC/M4A",
+    "zh-Hans": "已清理的 AAC/M4A"
+  },
+  "← Profile": {
+    "fr": "← Profil",
+    "es": "← Perfil",
+    "ru": "← Профиль",
+    "zh-Hans": "← 个人资料"
+  },
+  "No other profile pages discovered yet. VeilKnit app discovery supplies bootstrap peers; Weave gossip fills this list as profiles are encountered.": {
+    "fr": "Aucune autre page de profil découverte pour l’instant. La découverte d’applications VeilKnit fournit les pairs de démarrage ; le gossip Weave remplit cette liste au fil des profils rencontrés.",
+    "es": "Aún no se han descubierto otras páginas de perfil. El descubrimiento de aplicaciones de VeilKnit aporta pares iniciales; el gossip de Weave llena esta lista a medida que encuentra perfiles.",
+    "ru": "Другие страницы профилей пока не обнаружены. Обнаружение приложений VeilKnit даёт начальных пиров, а gossip Weave заполняет список по мере встречи профилей.",
+    "zh-Hans": "尚未发现其他个人资料页面。VeilKnit 应用发现提供初始对等节点；Weave gossip 会在遇到个人资料时填充此列表。"
+  },
+  "Refresh peers": {
+    "fr": "Actualiser les pairs",
+    "es": "Actualizar pares",
+    "ru": "Обновить пиры",
+    "zh-Hans": "刷新对等节点"
+  },
+  "The decorated VSPF page is the public profile. These fields are discovery metadata used by MinHash/search; the profile name is still excluded from the MinHash signature.": {
+    "fr": "La page VSPF décorée est le profil public. Ces champs sont des métadonnées de découverte utilisées par MinHash/la recherche ; le nom du profil reste exclu de la signature MinHash.",
+    "es": "La página VSPF decorada es el perfil público. Estos campos son metadatos de descubrimiento usados por MinHash/búsqueda; el nombre del perfil sigue excluido de la firma MinHash.",
+    "ru": "Оформленная страница VSPF — это публичный профиль. Эти поля являются метаданными обнаружения для MinHash/поиска; имя профиля по-прежнему не входит в сигнатуру MinHash.",
+    "zh-Hans": "经过装饰的 VSPF 页面就是公开个人资料。这些字段是 MinHash/搜索使用的发现元数据；个人资料名称仍不会进入 MinHash 签名。"
+  },
+  "Discovery/display name (blank = Profile Page name)": {
+    "fr": "Nom de découverte/affichage (vide = nom de la page de profil)",
+    "es": "Nombre de descubrimiento/visible (vacío = nombre de la página de perfil)",
+    "ru": "Имя для обнаружения/отображения (пусто = имя страницы профиля)",
+    "zh-Hans": "发现/显示名称（留空 = 个人资料页面名称）"
+  },
+  "Discovery description": {
+    "fr": "Description de découverte",
+    "es": "Descripción de descubrimiento",
+    "ru": "Описание для обнаружения",
+    "zh-Hans": "发现描述"
+  },
+  "Skills / interests / tags (comma, semicolon, or new line)": {
+    "fr": "Compétences / intérêts / tags (virgule, point-virgule ou nouvelle ligne)",
+    "es": "Habilidades / intereses / etiquetas (coma, punto y coma o nueva línea)",
+    "ru": "Навыки / интересы / теги (запятая, точка с запятой или новая строка)",
+    "zh-Hans": "技能 / 兴趣 / 标签（逗号、分号或换行）"
+  },
+  "Publish current Profile Page": {
+    "fr": "Publier la page de profil actuelle",
+    "es": "Publicar la página de perfil actual",
+    "ru": "Опубликовать текущую страницу профиля",
+    "zh-Hans": "发布当前个人资料页面"
+  },
+  "The VSPF document is uploaded through the daemon blob store; this app-root DHT holds only its descriptor/hash and discovery metadata.": {
+    "fr": "Le document VSPF est téléversé via le stockage blob du démon ; cette DHT racine d’application ne contient que son descripteur/hash et les métadonnées de découverte.",
+    "es": "El documento VSPF se sube mediante el almacén blob del daemon; esta DHT raíz de la aplicación solo contiene su descriptor/hash y metadatos de descubrimiento.",
+    "ru": "Документ VSPF загружается через blob-хранилище демона; эта корневая DHT приложения содержит только его дескриптор/хэш и метаданные обнаружения.",
+    "zh-Hans": "VSPF 文档通过守护程序的 blob 存储上传；此应用根 DHT 只保存其描述符/哈希和发现元数据。"
+  },
+  "Main DHT": {
+    "fr": "DHT principale",
+    "es": "DHT principal",
+    "ru": "Основная DHT",
+    "zh-Hans": "主 DHT"
+  },
+  "Profile root": {
+    "fr": "Racine du profil",
+    "es": "Raíz del perfil",
+    "ru": "Корень профиля",
+    "zh-Hans": "个人资料根"
+  },
+  "Copy main DHT": {
+    "fr": "Copier la DHT principale",
+    "es": "Copiar DHT principal",
+    "ru": "Копировать основную DHT",
+    "zh-Hans": "复制主 DHT"
+  },
+  "Copy profile root": {
+    "fr": "Copier la racine du profil",
+    "es": "Copiar raíz del perfil",
+    "ru": "Копировать корень профиля",
+    "zh-Hans": "复制个人资料根"
+  },
+  "Name / prefix search (e.g. bob)": {
+    "fr": "Recherche par nom / préfixe (ex. bob)",
+    "es": "Búsqueda por nombre / prefijo (p. ej. bob)",
+    "ru": "Поиск по имени / префиксу (например bob)",
+    "zh-Hans": "名称 / 前缀搜索（例如 bob）"
+  },
+  "Feature/keyword seed (e.g. woodworking)": {
+    "fr": "Point de départ caractéristique/mot-clé (ex. menuiserie)",
+    "es": "Semilla de característica/palabra clave (p. ej. carpintería)",
+    "ru": "Начальный признак/ключевое слово (например деревообработка)",
+    "zh-Hans": "特征/关键词种子（例如 木工）"
+  },
+  "More-like profile main DHT (optional)": {
+    "fr": "DHT principale du profil similaire (facultatif)",
+    "es": "DHT principal de perfil similar (opcional)",
+    "ru": "Основная DHT похожего профиля (необязательно)",
+    "zh-Hans": "相似个人资料的主 DHT（可选）"
+  },
+  "Avoid-like profile main DHT (optional)": {
+    "fr": "DHT principale du profil à éviter (facultatif)",
+    "es": "DHT principal del perfil a evitar (opcional)",
+    "ru": "Основная DHT нежелательного похожего профиля (необязательно)",
+    "zh-Hans": "要避开的相似个人资料主 DHT（可选）"
+  },
+  "Run / continue search": {
+    "fr": "Lancer / continuer la recherche",
+    "es": "Ejecutar / continuar búsqueda",
+    "ru": "Запустить / продолжить поиск",
+    "zh-Hans": "运行 / 继续搜索"
+  },
+  "Gossip now": {
+    "fr": "Gossip maintenant",
+    "es": "Gossip ahora",
+    "ru": "Запустить gossip",
+    "zh-Hans": "立即 gossip"
+  },
+  "Results": {
+    "fr": "Résultats",
+    "es": "Resultados",
+    "ru": "Результаты",
+    "zh-Hans": "结果"
+  },
+  "(unnamed)": {
+    "fr": "(sans nom)",
+    "es": "(sin nombre)",
+    "ru": "(без имени)",
+    "zh-Hans": "（未命名）"
+  },
+  "(unnamed profile)": {
+    "fr": "(profil sans nom)",
+    "es": "(perfil sin nombre)",
+    "ru": "(профиль без имени)",
+    "zh-Hans": "（未命名个人资料）"
+  },
+  "More like": {
+    "fr": "Plus similaire",
+    "es": "Más parecido",
+    "ru": "Больше похожего",
+    "zh-Hans": "更多类似"
+  },
+  "Avoid like": {
+    "fr": "Éviter les similaires",
+    "es": "Evitar similares",
+    "ru": "Избегать похожего",
+    "zh-Hans": "减少类似"
+  },
+  "Copy DHT": {
+    "fr": "Copier la DHT",
+    "es": "Copiar DHT",
+    "ru": "Копировать DHT",
+    "zh-Hans": "复制 DHT"
+  },
+  "Copy root": {
+    "fr": "Copier la racine",
+    "es": "Copiar raíz",
+    "ru": "Копировать корень",
+    "zh-Hans": "复制根"
+  },
+  "Skills/interests": {
+    "fr": "Compétences/intérêts",
+    "es": "Habilidades/intereses",
+    "ru": "Навыки/интересы",
+    "zh-Hans": "技能/兴趣"
+  },
+  "State": {
+    "fr": "État",
+    "es": "Estado",
+    "ru": "Состояние",
+    "zh-Hans": "状态"
+  },
+  "signature": {
+    "fr": "signature",
+    "es": "firma",
+    "ru": "сигнатура",
+    "zh-Hans": "签名"
+  },
+  "Cluster map / rotating record table": {
+    "fr": "Carte des grappes / table tournante des enregistrements",
+    "es": "Mapa de clústeres / tabla rotativa de registros",
+    "ru": "Карта кластеров / вращающаяся таблица записей",
+    "zh-Hans": "集群图 / 轮换记录表"
+  },
+  "Daemon + Weave debug log": {
+    "fr": "Journal de débogage démon + Weave",
+    "es": "Registro de depuración daemon + Weave",
+    "ru": "Журнал отладки демона + Weave",
+    "zh-Hans": "守护程序 + Weave 调试日志"
+  },
+  "Copy clusters": {
+    "fr": "Copier les grappes",
+    "es": "Copiar clústeres",
+    "ru": "Копировать кластеры",
+    "zh-Hans": "复制集群"
+  },
+  "Copy debug log": {
+    "fr": "Copier le journal de débogage",
+    "es": "Copiar registro de depuración",
+    "ru": "Копировать журнал отладки",
+    "zh-Hans": "复制调试日志"
+  },
+  "Recent 50": {
+    "fr": "50 récents",
+    "es": "50 recientes",
+    "ru": "Последние 50",
+    "zh-Hans": "最近 50 个"
+  },
+  "Discovery Lab": {
+    "fr": "Labo de découverte",
+    "es": "Laboratorio de descubrimiento",
+    "ru": "Лаборатория обнаружения",
+    "zh-Hans": "发现实验室"
+  },
+  "Network / Debug": {
+    "fr": "Réseau / Débogage",
+    "es": "Red / Depuración",
+    "ru": "Сеть / Отладка",
+    "zh-Hans": "网络 / 调试"
+  },
+  "Avoidance strength": {
+    "fr": "Force d’évitement",
+    "es": "Fuerza de evitación",
+    "ru": "Сила избегания",
+    "zh-Hans": "规避强度"
+  },
+  "Common-word penalty": {
+    "fr": "Pénalité des mots courants",
+    "es": "Penalización de palabras comunes",
+    "ru": "Штраф за частые слова",
+    "zh-Hans": "常用词惩罚"
+  },
+  "Stuffing penalty": {
+    "fr": "Pénalité de bourrage",
+    "es": "Penalización por relleno",
+    "ru": "Штраф за набивку ключевыми словами",
+    "zh-Hans": "堆砌惩罚"
+  },
+  "Novelty / exploration": {
+    "fr": "Nouveauté / exploration",
+    "es": "Novedad / exploración",
+    "ru": "Новизна / исследование",
+    "zh-Hans": "新颖度 / 探索"
+  },
+  "Open page": {
+    "fr": "Ouvrir la page",
+    "es": "Abrir página",
+    "ru": "Открыть страницу",
+    "zh-Hans": "打开页面"
+  },
+  "Fetch + verify": {
+    "fr": "Récupérer + vérifier",
+    "es": "Obtener + verificar",
+    "ru": "Получить + проверить",
+    "zh-Hans": "获取 + 验证"
+  },
+  "DHT/blob-verified": {
+    "fr": "DHT/blob vérifiés",
+    "es": "DHT/blob verificados",
+    "ru": "DHT/blob проверено",
+    "zh-Hans": "DHT/blob 已验证"
+  },
+  "gossip sent": {
+    "fr": "gossip envoyé",
+    "es": "gossip enviado",
+    "ru": "gossip отправлено",
+    "zh-Hans": "已发送 gossip"
+  },
+  "gossip received": {
+    "fr": "gossip reçu",
+    "es": "gossip recibido",
+    "ru": "gossip получено",
+    "zh-Hans": "已接收 gossip"
+  },
+  "gossip_hint": {
+    "fr": "indice gossip",
+    "es": "indicio gossip",
+    "ru": "подсказка gossip",
+    "zh-Hans": "gossip 提示"
+  },
+  "multi_source_hint": {
+    "fr": "indice multi-source",
+    "es": "indicio de varias fuentes",
+    "ru": "подсказка из нескольких источников",
+    "zh-Hans": "多来源提示"
+  },
+  "app_root_confirmed": {
+    "fr": "racine d’application confirmée",
+    "es": "raíz de aplicación confirmada",
+    "ru": "корень приложения подтверждён",
+    "zh-Hans": "应用根已确认"
+  },
+  "dht_verified": {
+    "fr": "DHT vérifiée",
+    "es": "DHT verificada",
+    "ru": "DHT проверено",
+    "zh-Hans": "DHT 已验证"
+  },
+  "Couldn't load the full image.": {
+    "fr": "Impossible de charger l’image complète.",
+    "es": "No se pudo cargar la imagen completa.",
+    "ru": "Не удалось загрузить полное изображение.",
+    "zh-Hans": "无法加载完整图片。"
+  },
+  "Couldn't load the source post.": {
+    "fr": "Impossible de charger la publication source.",
+    "es": "No se pudo cargar la publicación original.",
+    "ru": "Не удалось загрузить исходную публикацию.",
+    "zh-Hans": "无法加载源帖子。"
+  },
+  "Featured": {
+    "fr": "À la une",
+    "es": "Destacado",
+    "ru": "Избранное",
+    "zh-Hans": "精选"
+  },
+  "Featured comment": {
+    "fr": "Commentaire à la une",
+    "es": "Comentario destacado",
+    "ru": "Избранный комментарий",
+    "zh-Hans": "精选评论"
+  },
+  "Featured post": {
+    "fr": "Publication à la une",
+    "es": "Publicación destacada",
+    "ru": "Избранная публикация",
+    "zh-Hans": "精选帖子"
+  },
+  "Featured widget": {
+    "fr": "Widget à la une",
+    "es": "Widget destacado",
+    "ru": "Избранный виджет",
+    "zh-Hans": "精选小组件"
+  },
+  "Message thumbnail": {
+    "fr": "Miniature du message",
+    "es": "Miniatura del mensaje",
+    "ru": "Миниатюра сообщения",
+    "zh-Hans": "消息缩略图"
+  },
+  "No cached conversation activity yet.": {
+    "fr": "Aucune activité de conversation en cache pour l’instant.",
+    "es": "Aún no hay actividad de conversación en caché.",
+    "ru": "В кэше пока нет активности бесед.",
+    "zh-Hans": "尚无缓存的对话活动。"
+  },
+  "Post image": {
+    "fr": "Image de la publication",
+    "es": "Imagen de la publicación",
+    "ru": "Изображение публикации",
+    "zh-Hans": "帖子图片"
+  },
+  "Post image thumbnail": {
+    "fr": "Miniature de l’image de la publication",
+    "es": "Miniatura de la imagen de la publicación",
+    "ru": "Миниатюра изображения публикации",
+    "zh-Hans": "帖子图片缩略图"
+  },
+  "Removed": {
+    "fr": "Retiré",
+    "es": "Eliminado",
+    "ru": "Удалено",
+    "zh-Hans": "已移除"
+  },
+  "Removed by this moderation branch.": {
+    "fr": "Retiré par cette branche de modération.",
+    "es": "Eliminado por esta rama de moderación.",
+    "ru": "Удалено этой веткой модерации.",
+    "zh-Hans": "已被此管理分支移除。"
+  },
+  "Removed post": {
+    "fr": "Publication retirée",
+    "es": "Publicación eliminada",
+    "ru": "Удалённая публикация",
+    "zh-Hans": "已移除的帖子"
+  },
+  "Retained post": {
+    "fr": "Publication conservée",
+    "es": "Publicación conservada",
+    "ru": "Сохранённая публикация",
+    "zh-Hans": "保留的帖子"
+  },
+  "Selected post image": {
+    "fr": "Image de publication sélectionnée",
+    "es": "Imagen de publicación seleccionada",
+    "ru": "Выбранное изображение публикации",
+    "zh-Hans": "已选择的帖子图片"
+  },
+  "This user": {
+    "fr": "Cet utilisateur",
+    "es": "Este usuario",
+    "ru": "Этот пользователь",
+    "zh-Hans": "此用户"
+  },
+  "group thumbnail": {
+    "fr": "miniature du groupe",
+    "es": "miniatura del grupo",
+    "ru": "миниатюра группы",
+    "zh-Hans": "群组缩略图"
+  },
+  "will have new submissions rejected by this moderation branch. Other branches remain independent.": {
+    "fr": "verra ses nouvelles soumissions rejetées par cette branche de modération. Les autres branches restent indépendantes.",
+    "es": "tendrá sus nuevos envíos rechazados por esta rama de moderación. Las demás ramas siguen siendo independientes.",
+    "ru": "будет получать отказ на новые отправки в этой ветке модерации. Другие ветки остаются независимыми.",
+    "zh-Hans": "的新提交将被此管理分支拒绝。其他分支仍然独立。"
+  },
+  "Claim": {
+    "fr": "Réclamation",
+    "es": "Reclamación",
+    "ru": "Ветка-заявка",
+    "zh-Hans": "认领分支"
+  },
+  "Curator-held posts": {
+    "fr": "Publications conservées par le curateur",
+    "es": "Publicaciones retenidas por el curador",
+    "ru": "Публикации у куратора",
+    "zh-Hans": "策展者保留的帖子"
+  },
+  "Posts": {
+    "fr": "Publications",
+    "es": "Publicaciones",
+    "ru": "Публикации",
+    "zh-Hans": "帖子"
+  },
+  "Uploading your post…": {
+    "fr": "Téléversement de votre publication…",
+    "es": "Subiendo tu publicación…",
+    "ru": "Загрузка вашей публикации…",
+    "zh-Hans": "正在上传你的帖子…"
+  },
+  "Add picture": {
+    "fr": "Ajouter une image",
+    "es": "Añadir imagen",
+    "ru": "Добавить изображение",
+    "zh-Hans": "添加图片"
+  },
+  "Change picture": {
+    "fr": "Changer l’image",
+    "es": "Cambiar imagen",
+    "ru": "Сменить изображение",
+    "zh-Hans": "更换图片"
+  },
+  "Add audio": {
+    "fr": "Ajouter un audio",
+    "es": "Añadir audio",
+    "ru": "Добавить аудио",
+    "zh-Hans": "添加音频"
+  },
+  "Change audio": {
+    "fr": "Changer l’audio",
+    "es": "Cambiar audio",
+    "ru": "Сменить аудио",
+    "zh-Hans": "更换音频"
+  },
+  "Banning…": {
+    "fr": "Bannissement…",
+    "es": "Bloqueando…",
+    "ru": "Блокировка…",
+    "zh-Hans": "正在封禁…"
+  },
+  "Removing…": {
+    "fr": "Retrait…",
+    "es": "Eliminando…",
+    "ru": "Удаление…",
+    "zh-Hans": "正在移除…"
+  },
+  "Remove post": {
+    "fr": "Retirer la publication",
+    "es": "Eliminar publicación",
+    "ru": "Удалить публикацию",
+    "zh-Hans": "移除帖子"
+  },
+  "Saving…": {
+    "fr": "Enregistrement…",
+    "es": "Guardando…",
+    "ru": "Сохранение…",
+    "zh-Hans": "正在保存…"
+  },
+  "Save curated copy": {
+    "fr": "Enregistrer la copie organisée",
+    "es": "Guardar copia curada",
+    "ru": "Сохранить курируемую копию",
+    "zh-Hans": "保存策展副本"
+  },
+  "Unpin": {
+    "fr": "Désépingler",
+    "es": "Desfijar",
+    "ru": "Открепить",
+    "zh-Hans": "取消置顶"
+  },
+  "Pin": {
+    "fr": "Épingler",
+    "es": "Fijar",
+    "ru": "Закрепить",
+    "zh-Hans": "置顶"
+  },
+  "Tap to load image": {
+    "fr": "Touchez pour charger l’image",
+    "es": "Toca para cargar la imagen",
+    "ru": "Нажмите, чтобы загрузить изображение",
+    "zh-Hans": "点按以加载图片"
+  },
+  "Tap thumbnail to load full image": {
+    "fr": "Touchez la miniature pour charger l’image complète",
+    "es": "Toca la miniatura para cargar la imagen completa",
+    "ru": "Нажмите миниатюру, чтобы загрузить полное изображение",
+    "zh-Hans": "点按缩略图以加载完整图片"
+  },
+  "Create group": {
+    "fr": "Créer un groupe",
+    "es": "Crear grupo",
+    "ru": "Создать группу",
+    "zh-Hans": "创建群组"
+  },
+  "Manage group": {
+    "fr": "Gérer le groupe",
+    "es": "Administrar grupo",
+    "ru": "Управление группой",
+    "zh-Hans": "管理群组"
+  },
+  "Add group picture": {
+    "fr": "Ajouter une image de groupe",
+    "es": "Añadir imagen de grupo",
+    "ru": "Добавить изображение группы",
+    "zh-Hans": "添加群组图片"
+  },
+  "Change group picture": {
+    "fr": "Changer l’image du groupe",
+    "es": "Cambiar imagen del grupo",
+    "ru": "Сменить изображение группы",
+    "zh-Hans": "更换群组图片"
+  },
+  "Hide advanced": {
+    "fr": "Masquer les options avancées",
+    "es": "Ocultar opciones avanzadas",
+    "ru": "Скрыть расширенные настройки",
+    "zh-Hans": "隐藏高级选项"
+  },
+  "Save changes": {
+    "fr": "Enregistrer les modifications",
+    "es": "Guardar cambios",
+    "ru": "Сохранить изменения",
+    "zh-Hans": "保存更改"
+  },
+  "Approve members": {
+    "fr": "Approuver les membres",
+    "es": "Aprobar miembros",
+    "ru": "Одобрять участников",
+    "zh-Hans": "批准成员"
+  },
+  "Edit featured area": {
+    "fr": "Modifier la zone à la une",
+    "es": "Editar área destacada",
+    "ru": "Редактировать избранную область",
+    "zh-Hans": "编辑精选区域"
+  },
+  "Excessive-posting protection": {
+    "fr": "Protection contre les publications excessives",
+    "es": "Protección contra publicaciones excesivas",
+    "ru": "Защита от чрезмерных публикаций",
+    "zh-Hans": "过量发帖保护"
+  },
+  "Handle reports": {
+    "fr": "Traiter les signalements",
+    "es": "Gestionar reportes",
+    "ru": "Обрабатывать жалобы",
+    "zh-Hans": "处理举报"
+  },
+  "Joining": {
+    "fr": "Adhésion",
+    "es": "Ingreso",
+    "ru": "Вступление",
+    "zh-Hans": "加入"
+  },
+  "Moderate posts/comments": {
+    "fr": "Modérer les publications/commentaires",
+    "es": "Moderar publicaciones/comentarios",
+    "ru": "Модерировать публикации/комментарии",
+    "zh-Hans": "管理帖子/评论"
+  },
+  "Moderation": {
+    "fr": "Modération",
+    "es": "Moderación",
+    "ru": "Модерация",
+    "zh-Hans": "管理"
+  },
+  "Pin comments": {
+    "fr": "Épingler les commentaires",
+    "es": "Fijar comentarios",
+    "ru": "Закреплять комментарии",
+    "zh-Hans": "置顶评论"
+  },
+  "Posting": {
+    "fr": "Publication",
+    "es": "Publicación",
+    "ru": "Публикация",
+    "zh-Hans": "发帖"
+  },
+  "Quarantine new members": {
+    "fr": "Mettre les nouveaux membres en quarantaine",
+    "es": "Poner nuevos miembros en cuarentena",
+    "ru": "Помещать новых участников в карантин",
+    "zh-Hans": "隔离新成员"
+  },
+  "Repeated-message protection": {
+    "fr": "Protection contre les messages répétés",
+    "es": "Protección contra mensajes repetidos",
+    "ru": "Защита от повторяющихся сообщений",
+    "zh-Hans": "重复消息保护"
+  },
+  "Type": {
+    "fr": "Type",
+    "es": "Tipo",
+    "ru": "Тип",
+    "zh-Hans": "类型"
+  },
+  "Visibility": {
+    "fr": "Visibilité",
+    "es": "Visibilidad",
+    "ru": "Видимость",
+    "zh-Hans": "可见性"
+  },
+  "Post is now visible on this moderation branch.": {
+    "fr": "La publication est maintenant visible sur cette branche de modération.",
+    "es": "La publicación ya es visible en esta rama de moderación.",
+    "ru": "Публикация теперь видна в этой ветке модерации.",
+    "zh-Hans": "帖子现在已在此管理分支中可见。"
+  },
+  "Uploading…": {
+    "fr": "Téléversement…",
+    "es": "Subiendo…",
+    "ru": "Загрузка…",
+    "zh-Hans": "正在上传…"
+  },
+  "Not visible yet · waiting for the selected moderation branch": {
+    "fr": "Pas encore visible · en attente de la branche de modération sélectionnée",
+    "es": "Aún no visible · esperando la rama de moderación seleccionada",
+    "ru": "Пока не видно · ожидание выбранной ветки модерации",
+    "zh-Hans": "尚不可见 · 正在等待所选管理分支"
+  },
+  "Post uploaded and submitted.": {
+    "fr": "Publication téléversée et soumise.",
+    "es": "Publicación subida y enviada.",
+    "ru": "Публикация загружена и отправлена.",
+    "zh-Hans": "帖子已上传并提交。"
+  },
+  "Upload failed · reopen the composer to try again": {
+    "fr": "Échec du téléversement · rouvrez l’éditeur pour réessayer",
+    "es": "Falló la subida · vuelve a abrir el editor para intentarlo de nuevo",
+    "ru": "Ошибка загрузки · снова откройте редактор и повторите попытку",
+    "zh-Hans": "上传失败 · 重新打开编辑器以重试"
+  },
+  "Post upload failed. Your draft is still here if you reopen the composer.": {
+    "fr": "Échec du téléversement. Votre brouillon sera toujours là si vous rouvrez l’éditeur.",
+    "es": "Falló la subida. Tu borrador seguirá aquí si vuelves a abrir el editor.",
+    "ru": "Не удалось загрузить публикацию. Черновик останется здесь, если снова открыть редактор.",
+    "zh-Hans": "帖子上传失败。重新打开编辑器后草稿仍会保留。"
+  },
+  "A post/widget ObjectRef can be selected from the group after it has been published.": {
+    "fr": "Un ObjectRef de publication/widget peut être sélectionné dans le groupe après sa publication.",
+    "es": "Se puede seleccionar un ObjectRef de publicación/widget desde el grupo después de publicarlo.",
+    "ru": "ObjectRef публикации/виджета можно выбрать в группе после публикации.",
+    "zh-Hans": "帖子/小组件的 ObjectRef 发布后可从群组中选择。"
+  },
+  "This stays deliberately short so the actual conversations remain above the fold.": {
+    "fr": "Cette zone reste volontairement courte afin que les conversations réelles restent visibles sans défilement.",
+    "es": "Esto se mantiene intencionalmente corto para que las conversaciones reales sigan visibles sin desplazarse.",
+    "ru": "Этот блок намеренно короткий, чтобы реальные беседы оставались выше сгиба.",
+    "zh-Hans": "这里特意保持简短，让实际对话尽量保持在首屏。"
+  }
+}

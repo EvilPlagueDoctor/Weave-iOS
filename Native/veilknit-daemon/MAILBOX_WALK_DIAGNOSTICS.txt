@@ -1,0 +1,79 @@
+VeilKnit mailbox WalkNodeObserved timing diagnostics
+====================================================
+
+This build keeps the interruptible mailbox shutdown fix and adds temporary
+runtime timing traces for the slow WalkNodeObserved path.
+
+Primary trace file:
+    ./user_data/mailbox-walk-debug.log
+
+The existing shutdown trace remains at:
+    ./user_data/shutdown-debug.log
+
+Both diagnostic files are capped at 100,000 lines and trim back to the newest 90,000 when full.
+They are file-only by default. Set VEILKNIT_DIAGNOSTICS_STDERR=1 before launch if you want the
+diagnostic lines mirrored live to stderr/console as well.
+
+What the new trace measures
+---------------------------
+
+OBS ...
+    Total processing of one mailbox WalkNodeObserved event.
+
+OBS STAGE sender-outbox
+    Reads the observed peer's MailSend store and validates candidate messages /
+    service requests.
+
+OBS STAGE custodian-mailbox
+    Reads the peer's custodian mailbox and follows relevant pointers.
+
+OBS STAGE response-dht
+    Checks response records when we are awaiting a response from this peer.
+
+FOREIGN_STORE ...
+    Copy-on-write paged-store reading.  INDEX_READ and PAGE_READ are separate,
+    because today those are necessarily sequential: the index tells us which
+    pages need to be read.  The page subkeys themselves are batched.
+
+DHT ... permit / record-lock
+    Shows whether the operation spent its time waiting for concurrency limits
+    or for another reader of the same foreign record.
+
+DHT ... PHASE OPEN / GET_BATCH / CLOSE
+    Breaks the actual Veilid foreign-record operation into open, value reads,
+    and close.
+
+DHT selected SUBKEY START/END
+    Each requested subkey is timed individually. These are already run with
+    buffer_unordered(DHT_READ_CONCURRENCY), currently 64, so overlapping START
+    lines followed by later END lines confirm real parallel reads.
+
+Useful interpretations
+----------------------
+
+* Long record-lock wait:
+    The same foreign record is already busy elsewhere. More parallelism for
+    that record is unsafe under the current temporary-open/close model and
+    would not help.
+
+* Long OPEN or CLOSE:
+    Veilid/network record management is the bottleneck.
+
+* One very long SUBKEY while others finish quickly:
+    One DHT value lookup is the tail-latency problem. The selected-read path
+    currently has a whole-batch timeout but no 45-second timeout around each
+    individual get_dht_value. This build only measures that; it does not change
+    the timeout behavior.
+
+* Several unrelated OBS stages each taking seconds:
+    These stages are currently serial in process_walk_observation and may be
+    candidates for parallel discovery work, provided state mutation is split
+    safely from network I/O.
+
+* Custodian service/message pointer checks taking seconds one after another:
+    Pointer retrieval is currently serial and may offer a larger parallelism
+    opportunity than increasing DHT subkey concurrency, which is already 64.
+
+For the next diagnostic round, letting one normal automatic walk finish is
+usually enough. Then paste the newest session from mailbox-walk-debug.log.
+Shutdown is not required unless you also want to re-check shutdown behavior.

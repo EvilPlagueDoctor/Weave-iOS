@@ -1,0 +1,17 @@
+[package]
+name = "daemon_network_sdk"
+version = "0.4.0"
+edition = "2021"
+description = "High-level Rust SDK for applications connected to the Daemon Network local API"
+
+[dependencies]
+base64 = "0.21"
+futures = "0.3"
+hex = "0.4"
+rand_core = { version = "0.6", features = ["getrandom"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["io-util", "net", "time", "sync", "macros", "rt-multi-thread"] }
+
+hmac = "0.12"
+sha2 = "0.10"

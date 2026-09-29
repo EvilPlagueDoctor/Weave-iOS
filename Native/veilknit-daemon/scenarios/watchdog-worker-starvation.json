@@ -1,0 +1,29 @@
+{
+  "name": "watchdog-worker-starvation",
+  "description": "Several hooks deliberately occupy runtime workers. The independent OS-thread watchdog must still fire even if Tokio timers/canary are delayed.",
+  "budget_scale": 0.02,
+  "canary": true,
+  "hooks": [
+    {
+      "module": "starve_a",
+      "need": "storage",
+      "behaviour": "starve_worker",
+      "ms": 1000
+    },
+    {
+      "module": "starve_b",
+      "need": "storage",
+      "behaviour": "starve_worker",
+      "ms": 1000
+    },
+    {
+      "module": "starve_c",
+      "need": "storage",
+      "behaviour": "starve_worker",
+      "ms": 1000
+    }
+  ],
+  "expect": {
+    "watchdog_fired": true
+  }
+}

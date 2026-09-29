@@ -1,0 +1,8 @@
+[package]
+name = "network_api_client"
+version = "0.2.0"
+edition = "2021"
+description = "Compatibility re-export for daemon_network_sdk"
+
+[dependencies]
+daemon_network_sdk = { path = "../daemon_network_sdk" }
