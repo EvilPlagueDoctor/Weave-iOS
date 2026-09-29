@@ -135,11 +135,11 @@ final class AppModel: ObservableObject {
     }
 
     func exportProfile(to url: URL) throws {
-        try ProfileCodec.writeTextFile(profile, to: url)
+        try ProfileCodec.save(profile, to: url)
     }
 
     func importProfile(from url: URL) throws {
-        let imported = try ProfileCodec.readTextFile(from: url)
+        let imported = try ProfileCodec.load(from: url)
         let validation = ProfileCodec.validate(imported)
         guard validation.ok else { throw ImportError.invalid(validation.message) }
         profile = imported

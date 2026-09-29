@@ -56,8 +56,8 @@ enum ProfileCodec {
 
     static func decodeBinary(_ data: Data) throws -> ProfileDocument {
         var r = Reader(data)
-        guard try r.u8() == UInt8(ascii: "V")!, try r.u8() == UInt8(ascii: "S")!,
-              try r.u8() == UInt8(ascii: "P")!, try r.u8() == UInt8(ascii: "F")! else {
+        guard try r.u8() == UInt8(ascii: "V"), try r.u8() == UInt8(ascii: "S"),
+              try r.u8() == UInt8(ascii: "P"), try r.u8() == UInt8(ascii: "F") else {
             throw CodecError.invalid("not a VSPF profile")
         }
         let version = try r.u16()

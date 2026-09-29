@@ -2,6 +2,19 @@ import Foundation
 import CryptoKit
 import Security
 
+
+/// JSON object returned by the embedded daemon.
+///
+/// The dictionary is produced from JSONSerialization and is never mutated after
+/// leaving DaemonClient. Wrapping it lets Swift 6 safely move the response across
+/// actor boundaries without weakening isolation for DaemonClient itself.
+struct DaemonResult: @unchecked Sendable, CustomStringConvertible {
+    fileprivate let storage: [String: Any]
+
+    subscript(_ key: String) -> Any? { storage[key] }
+    var description: String { String(describing: storage) }
+}
+
 actor DaemonClient {
     static let protocolVersion = 3
     static let appID = "weave.v1"
@@ -68,20 +81,20 @@ actor DaemonClient {
         profileID = nil
     }
 
-    func request(_ action: String, body: [String: Any] = [:]) throws -> [String: Any] {
-        try rawRequest(action, authenticated: true, body: body)
+    func request(_ action: String, body: [String: Any] = [:]) throws -> DaemonResult {
+        DaemonResult(storage: try rawRequest(action, authenticated: true, body: body))
     }
 
-    func identity() throws -> [String: Any] { try request("get_identity") }
-    func listAppPeers() throws -> [String: Any] { try request("list_app_peers", body: ["limit": 1000, "start_search": true]) }
-    func getAppRoot(peerMainDHT: String) throws -> [String: Any] {
+    func identity() throws -> DaemonResult { try request("get_identity") }
+    func listAppPeers() throws -> DaemonResult { try request("list_app_peers", body: ["limit": 1000, "start_search": true]) }
+    func getAppRoot(peerMainDHT: String) throws -> DaemonResult {
         try request("get_app_root", body: ["peer_main_dht": peerMainDHT, "start_lookup": true])
     }
-    func registerAppRoot(_ rootDHT: String) throws -> [String: Any] {
+    func registerAppRoot(_ rootDHT: String) throws -> DaemonResult {
         try request("register_app_root", body: ["root_dht": rootDHT])
     }
-    func triggerMessageRetrieval() throws -> [String: Any] { try request("trigger_message_retrieval") }
-    func mailboxStatus() throws -> [String: Any] { try request("get_mailbox_status") }
+    func triggerMessageRetrieval() throws -> DaemonResult { try request("trigger_message_retrieval") }
+    func mailboxStatus() throws -> DaemonResult { try request("get_mailbox_status") }
 
     private func ensureCredential(profileID: String, status: @escaping @Sendable (String) -> Void) async throws {
         if KeychainCredentialStore.read(profileID: profileID) != nil { return }
