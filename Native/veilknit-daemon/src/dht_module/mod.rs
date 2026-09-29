@@ -482,7 +482,6 @@ impl DHTModule {
                                     let options = SetDHTValueOptions {
                                         writer: Some(writer_keypair),
                                         allow_offline: None,
-                                        min_seqnum: None,
                                     };
 
                                     let data = normalize_write_bytes(data);
