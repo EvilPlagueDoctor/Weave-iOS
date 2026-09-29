@@ -1,4 +1,5 @@
 name: iOS build
+
 on:
   workflow_dispatch:
   push:
@@ -8,17 +9,72 @@ on:
       - 'Native/**'
       - 'Scripts/**'
       - 'project.yml'
+      - '.gitattributes'
       - '.github/workflows/ios-build.yml'
+
 jobs:
   simulator:
+    name: Simulator
     runs-on: macos-15
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: dtolnay/rust-toolchain@stable
-      - run: brew install xcodegen
-      - run: ./Scripts/build_simulator.sh
-      - uses: actions/upload-artifact@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Fix script permissions
+        run: chmod +x Scripts/*.sh
+
+      - name: Build simulator app
+        run: ./Scripts/build_simulator.sh
+
+      - name: Upload simulator app
+        uses: actions/upload-artifact@v4
         with:
           name: Weave-iOS-Simulator
           path: build/DerivedData/Build/Products/Debug-iphonesimulator/Weave.app
+          if-no-files-found: error
+
+  iphone:
+    name: Physical iPhone
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Fix script permissions
+        run: chmod +x Scripts/*.sh
+
+      - name: Generate Xcode project and native library
+        run: ./Scripts/generate_project.sh
+
+      - name: Build unsigned physical-iPhone app
+        run: |
+          xcodebuild             -project WeaveIOS.xcodeproj             -scheme WeaveIOS             -sdk iphoneos             -configuration Debug             -destination 'generic/platform=iOS'             CODE_SIGNING_ALLOWED=NO             CODE_SIGNING_REQUIRED=NO             CODE_SIGN_IDENTITY=""             -derivedDataPath "$PWD/build/DerivedData-iPhone"             build
+
+      - name: Package unsigned IPA
+        run: |
+          rm -rf build/Payload
+          mkdir -p build/Payload
+          cp -R             build/DerivedData-iPhone/Build/Products/Debug-iphoneos/Weave.app             build/Payload/
+          cd build
+          zip -r Weave-unsigned.ipa Payload
+
+      - name: Upload unsigned iPhone IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: Weave-iPhone-Unsigned
+          path: build/Weave-unsigned.ipa
           if-no-files-found: error

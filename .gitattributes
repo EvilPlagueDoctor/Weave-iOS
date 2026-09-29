@@ -1,0 +1,6 @@
+# Keep shell scripts usable on GitHub's macOS runner when the repo is edited on Windows.
+*.sh text eol=lf
+
+# Keep workflow/config files on Unix line endings as well.
+*.yml text eol=lf
+*.yaml text eol=lf
